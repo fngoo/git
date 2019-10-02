@@ -378,7 +378,7 @@ i=$((i+1))
 done
 done
 
-cat exe.sh | parallel --jobs 50 --delay 1
+cat exe.sh | parallel --jobs 20 --delay 1
 rm exe.sh
 rm dir_* -r
 rm token.txt
