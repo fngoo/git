@@ -21,7 +21,7 @@ echo "bash dir_$i/${i}.sh" >> exe.sh
 i=$((i+1))
 
 done
-cat exe.sh | parallel --jobs 1 --delay 60
+cat exe.sh | parallel --jobs 1 --delay 1
 rm exe.sh
 rm dir_* -r
 
