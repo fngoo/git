@@ -385,3 +385,4 @@ rm rule.txt
 
 python3 /root/script/git/GSIL/gsil.py --report
 ls
+rm -r /root/.gsil
