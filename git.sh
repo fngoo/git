@@ -336,8 +336,22 @@ do
 for line in `cat $var`
 do
 
-takenum=`grep -n "${line}" $var | grep -oP ".*?(?=:)"`
-token=`head -${takenum} token.txt | tail -1`
+#grepnum=`cat $var | wc -l`
+#for((greperror=1;greperror<=${grepnum};greperror+=1))
+#do
+#seak=`head -${greperror} $var | tail -1`
+#if [ $seak == $line ]
+#then
+sed -n -e "/${line}/=" $var > 1.txt
+for greperror in `cat 1.txt`
+do
+heads=`head -${greperror} $var | tail -1`
+if [ "${heads}" == "$line" ]
+then
+token=`head -${greperror} token.txt | tail -1`
+fi
+done
+rm 1.txt
 
 mkdir dir_$i
 dot=`echo $line | grep -o -P ".*(?=\.)"`
@@ -354,8 +368,11 @@ echo "cd ../ ; rm -r dir_$i" >> dir_$i/${i}.sh
 echo "bash dir_$i/${i}.sh" >> exe.sh
 i=$((i+1))
 
+#fi
+#done
 done
 done
+
 cat exe.sh | parallel --jobs 50 --delay 1
 rm exe.sh
 rm dir_* -r
