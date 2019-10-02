@@ -386,4 +386,4 @@ rm rule.txt
 rm -r logs
 
 ls
-rm -r /root/.gsil
+mv -r /root/.gsil /root/zip
