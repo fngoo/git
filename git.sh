@@ -3,7 +3,6 @@
 #创建目录
 
 i=1
-echo '#!/bin/bash' >> exe.sh
 
 for line in `cat $var`
 do
