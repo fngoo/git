@@ -330,15 +330,15 @@ echo '            "Git configuration file": {}' >> rule.txt
 i=1
 
 #规则循环
-for rule in `cat rule.txt`
+for rulenum in `cat rule.txt | wc -l`
 do
 
+rule=`head -${rulenum} rule.txt | tail -1`
 echo $rule
 
 for line in `cat $var`
 do
 
-echo $line
 #grepnum=`cat $var | wc -l`
 #for((greperror=1;greperror<=${grepnum};greperror+=1))
 #do
