@@ -9,6 +9,7 @@ for line in `cat $var`
 do
 
 mkdir dir_$i
+line=`echo $line | grep -o -P ".*(?=\.)"`
 
 echo '#!/bin/bash' >> dir_$i/${i}.sh
 echo "cp -r /root/script/git/GSIL/* dir_$i" >> dir_$i/${i}.sh
