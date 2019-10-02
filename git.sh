@@ -205,118 +205,118 @@ a=0af5a56df11d928f76de90 ; b=357c727c0d66c2c02f
 c=$a$b ; echo "$c" >> token.txt
 
 #rule
-echo '            "Chef private key": {}' >> rule.txt
-echo '            "Potential Linux shadow file": {}' >> rule.txt
-echo '            "Potential Linux passwd file": {}' >> rule.txt
-echo '            "Docker configuration file": {}' >> rule.txt
-echo '            "NPM configuration file": {}' >> rule.txt
-echo '            "Environment configuration file": {}' >> rule.txt
-echo '            "Contains a private key": {}' >> rule.txt
-echo '            "AWS Access Key ID Value": {}' >> rule.txt
-echo '            "AWS Access Key ID": {}' >> rule.txt
-echo '            "AWS Account ID": {}' >> rule.txt
-echo '            "AWS Secret Access Key": {}' >> rule.txt
-echo '            "AWS Session Token": {}' >> rule.txt
-echo '            "Artifactory": {}' >> rule.txt
-echo '            "CodeClimate": {}' >> rule.txt
-echo '            "Facebook access token": {}' >> rule.txt
-echo '            "Google (GCM) Service account": {}' >> rule.txt
-echo '            "Stripe API key": {}' >> rule.txt
-echo '            "Google OAuth Key": {}' >> rule.txt
-echo '            "Google Cloud API Key": {}' >> rule.txt
-echo '            "Google OAuth Access Token": {}' >> rule.txt
-echo '            "Picatic API key": {}' >> rule.txt
-echo '            "Square Access Token": {}' >> rule.txt
-echo '            "Square OAuth Secret": {}' >> rule.txt
-echo '            "PayPal/Braintree Access Token": {}' >> rule.txt
-echo '            "Amazon MWS Auth Token": {}' >> rule.txt
-echo '            "Twilo API Key": {}' >> rule.txt
-echo '            "MailGun API Key": {}' >> rule.txt
-echo '            "MailChimp API Key": {}' >> rule.txt
-echo '            "SSH Password": {}' >> rule.txt
-echo '            "Outlook team": {}' >> rule.txt
-echo '            "Sauce Token": {}' >> rule.txt
-echo '            "Slack Token": {}' >> rule.txt
-echo '            "Slack Webhook": {}' >> rule.txt
-echo '            "SonarQube Docs API Key": {}' >> rule.txt
-echo '            "HockeyApp": {}' >> rule.txt
-echo '            "Username and password in URI": {}' >> rule.txt
-echo '            "NuGet API Key": {}' >> rule.txt
-echo '            "Potential cryptographic private key": {}' >> rule.txt
-echo '            "Log file": {}' >> rule.txt
-echo '            "Potential cryptographic key bundle": {}' >> rule.txt
-echo '            "Pidgin OTR private key": {}' >> rule.txt
-echo '            "OpenVPN client configuration file": {}' >> rule.txt
-echo '            "Azure service configuration schema file": {}' >> rule.txt
-echo '            "Remote Desktop connection file": {}' >> rule.txt
-echo '            "Microsoft SQL database file": {}' >> rule.txt
-echo '            "Microsoft SQL server compact database file": {}' >> rule.txt
-echo '            "SQLite database file": {}' >> rule.txt
-echo '            "SQLite3 database file": {}' >> rule.txt
-echo '            "Microsoft BitLocker recovery key file": {}' >> rule.txt
-echo '            "Microsoft BitLocker Trusted Platform Module password file": {}' >> rule.txt
-echo '            "Windows BitLocker full volume encrypted data file": {}' >> rule.txt
-echo '            "Java keystore file": {}' >> rule.txt
-echo '            "Password Safe database file": {}' >> rule.txt
-echo '            "Ruby On Rails secret token configuration file": {}' >> rule.txt
-echo '            "Carrierwave configuration file": {}' >> rule.txt
-echo '            "Potential Ruby On Rails database configuration file": {}' >> rule.txt
-echo '            "OmniAuth configuration file": {}' >> rule.txt
-echo '            "Django configuration file": {}' >> rule.txt
-echo '            "1Password password manager database file": {}' >> rule.txt
-echo '            "Apple Keychain database file": {}' >> rule.txt
-echo '            "Network traffic capture file": {}' >> rule.txt
-echo '            "GnuCash database file": {}' >> rule.txt
-echo '            "Jenkins publish over SSH plugin file": {}' >> rule.txt
-echo '            "Potential Jenkins credentials file": {}' >> rule.txt
-echo '            "KDE Wallet Manager database file": {}' >> rule.txt
-echo '            "Potential MediaWiki configuration file": {}' >> rule.txt
-echo '            "Tunnelblick VPN configuration file": {}' >> rule.txt
-echo '            "Sequel Pro MySQL database manager bookmark file": {}' >> rule.txt
-echo '            "Little Snitch firewall configuration file": {}' >> rule.txt
-echo '            "Day One journal file": {}' >> rule.txt
-echo '            "Potential jrnl journal file": {}' >> rule.txt
-echo '            "Chef Knife configuration file": {}' >> rule.txt
-echo '            "cPanel backup ProFTPd credentials file": {}' >> rule.txt
-echo '            "Robomongo MongoDB manager configuration file": {}' >> rule.txt
-echo '            "FileZilla FTP configuration file": {}' >> rule.txt
-echo '            "FileZilla FTP recent servers file": {}' >> rule.txt
-echo '            "Ventrilo server configuration file": {}' >> rule.txt
-echo '            "Terraform variable config file": {}' >> rule.txt
-echo '            "Shell configuration file": {}' >> rule.txt
-echo '            "Private SSH key": {}' >> rule.txt
-echo '            "SSH configuration file": {}' >> rule.txt
-echo '            "Potential cryptographic private key": {}' >> rule.txt
-echo '            "Shell command history file": {}' >> rule.txt
-echo '            "MySQL client command history file": {}' >> rule.txt
-echo '            "PostgreSQL client command history file": {}' >> rule.txt
-echo '            "PostgreSQL password file": {}' >> rule.txt
-echo '            "Ruby IRB console history file": {}' >> rule.txt
-echo '            "Pidgin chat client account configuration file": {}' >> rule.txt
-echo '            "Hexchat/XChat IRC client server list configuration file": {}' >> rule.txt
-echo '            "Irssi IRC client configuration file": {}' >> rule.txt
-echo '            "Recon-ng web reconnaissance framework API key database": {}' >> rule.txt
-echo '            "DBeaver SQL database manager configuration file": {}' >> rule.txt
-echo '            "Mutt e-mail client configuration file": {}' >> rule.txt
-echo '            "S3cmd configuration file": {}' >> rule.txt
-echo '            "AWS CLI credentials file": {}' >> rule.txt
-echo '            "SFTP connection configuration file": {}' >> rule.txt
-echo '            "T command-line Twitter client configuration file": {}' >> rule.txt
-echo '            "Shell configuration file": {}' >> rule.txt
-echo '            "Shell profile configuration file": {}' >> rule.txt
-echo '            "Shell command alias configuration file": {}' >> rule.txt
-echo '            "PHP configuration file": {}' >> rule.txt
-echo '            "GNOME Keyring database file": {}' >> rule.txt
-echo '            "KeePass password manager database file": {}' >> rule.txt
-echo '            "SQL dump file": {}' >> rule.txt
-echo '            "Apache htpasswd file": {}' >> rule.txt
-echo '            "Configuration file for auto-login process": {}' >> rule.txt
-echo '            "Rubygems credentials file": {}' >> rule.txt
-echo '            "Tugboat DigitalOcean management tool configuration": {}' >> rule.txt
-echo '            "DigitalOcean doctl command-line client configuration file": {}' >> rule.txt
-echo '            "git-credential-store helper credentials file": {}' >> rule.txt
-echo '            "GitHub Hub command-line client configuration file": {}' >> rule.txt
-echo '            "Git configuration file": {}' >> rule.txt
+echo '\ \ \ \ \ \ \ \ \ \ \ \ \"Chef private key\": {}' >> rule.txt
+echo '\ \ \ \ \ \ \ \ \ \ \ \ \"Potential Linux shadow file\": {}' >> rule.txt
+echo '\ \ \ \ \ \ \ \ \ \ \ \ \"Potential Linux passwd file\": {}' >> rule.txt
+echo '\ \ \ \ \ \ \ \ \ \ \ \ \"Docker configuration file\": {}' >> rule.txt
+echo '\ \ \ \ \ \ \ \ \ \ \ \ \"NPM configuration file\": {}' >> rule.txt
+echo '\ \ \ \ \ \ \ \ \ \ \ \ \"Environment configuration file\": {}' >> rule.txt
+echo '\ \ \ \ \ \ \ \ \ \ \ \ \"Contains a private key\": {}' >> rule.txt
+echo '\ \ \ \ \ \ \ \ \ \ \ \ \"AWS Access Key ID Value\": {}' >> rule.txt
+echo '\ \ \ \ \ \ \ \ \ \ \ \ \"AWS Access Key ID\": {}' >> rule.txt
+echo '\ \ \ \ \ \ \ \ \ \ \ \ \"AWS Account ID\": {}' >> rule.txt
+echo '\ \ \ \ \ \ \ \ \ \ \ \ \"AWS Secret Access Key\": {}' >> rule.txt
+echo '\ \ \ \ \ \ \ \ \ \ \ \ \"AWS Session Token\": {}' >> rule.txt
+echo '\ \ \ \ \ \ \ \ \ \ \ \ \"Artifactory\": {}' >> rule.txt
+echo '\ \ \ \ \ \ \ \ \ \ \ \ \"CodeClimate\": {}' >> rule.txt
+echo '\ \ \ \ \ \ \ \ \ \ \ \ \"Facebook access token\": {}' >> rule.txt
+echo '\ \ \ \ \ \ \ \ \ \ \ \ \"Google (GCM) Service account\": {}' >> rule.txt
+echo '\ \ \ \ \ \ \ \ \ \ \ \ \"Stripe API key\": {}' >> rule.txt
+echo '\ \ \ \ \ \ \ \ \ \ \ \ \"Google OAuth Key\": {}' >> rule.txt
+echo '\ \ \ \ \ \ \ \ \ \ \ \ \"Google Cloud API Key\": {}' >> rule.txt
+echo '\ \ \ \ \ \ \ \ \ \ \ \ \"Google OAuth Access Token\": {}' >> rule.txt
+echo '\ \ \ \ \ \ \ \ \ \ \ \ \"Picatic API key\": {}' >> rule.txt
+echo '\ \ \ \ \ \ \ \ \ \ \ \ \"Square Access Token\": {}' >> rule.txt
+echo '\ \ \ \ \ \ \ \ \ \ \ \ \"Square OAuth Secret\": {}' >> rule.txt
+echo '\ \ \ \ \ \ \ \ \ \ \ \ \"PayPal/Braintree Access Token\": {}' >> rule.txt
+echo '\ \ \ \ \ \ \ \ \ \ \ \ \"Amazon MWS Auth Token\": {}' >> rule.txt
+echo '\ \ \ \ \ \ \ \ \ \ \ \ \"Twilo API Key\": {}' >> rule.txt
+echo '\ \ \ \ \ \ \ \ \ \ \ \ \"MailGun API Key\": {}' >> rule.txt
+echo '\ \ \ \ \ \ \ \ \ \ \ \ \"MailChimp API Key\": {}' >> rule.txt
+echo '\ \ \ \ \ \ \ \ \ \ \ \ \"SSH Password\": {}' >> rule.txt
+echo '\ \ \ \ \ \ \ \ \ \ \ \ \"Outlook team\": {}' >> rule.txt
+echo '\ \ \ \ \ \ \ \ \ \ \ \ \"Sauce Token\": {}' >> rule.txt
+echo '\ \ \ \ \ \ \ \ \ \ \ \ \"Slack Token\": {}' >> rule.txt
+echo '\ \ \ \ \ \ \ \ \ \ \ \ \"Slack Webhook\": {}' >> rule.txt
+echo '\ \ \ \ \ \ \ \ \ \ \ \ \"SonarQube Docs API Key\": {}' >> rule.txt
+echo '\ \ \ \ \ \ \ \ \ \ \ \ \"HockeyApp\": {}' >> rule.txt
+echo '\ \ \ \ \ \ \ \ \ \ \ \ \"Username and password in URI\": {}' >> rule.txt
+echo '\ \ \ \ \ \ \ \ \ \ \ \ \"NuGet API Key\": {}' >> rule.txt
+echo '\ \ \ \ \ \ \ \ \ \ \ \ \"Potential cryptographic private key\": {}' >> rule.txt
+echo '\ \ \ \ \ \ \ \ \ \ \ \ \"Log file\": {}' >> rule.txt
+echo '\ \ \ \ \ \ \ \ \ \ \ \ \"Potential cryptographic key bundle\": {}' >> rule.txt
+echo '\ \ \ \ \ \ \ \ \ \ \ \ \"Pidgin OTR private key\": {}' >> rule.txt
+echo '\ \ \ \ \ \ \ \ \ \ \ \ \"OpenVPN client configuration file\": {}' >> rule.txt
+echo '\ \ \ \ \ \ \ \ \ \ \ \ \"Azure service configuration schema file\": {}' >> rule.txt
+echo '\ \ \ \ \ \ \ \ \ \ \ \ \"Remote Desktop connection file\": {}' >> rule.txt
+echo '\ \ \ \ \ \ \ \ \ \ \ \ \"Microsoft SQL database file\": {}' >> rule.txt
+echo '\ \ \ \ \ \ \ \ \ \ \ \ \"Microsoft SQL server compact database file\": {}' >> rule.txt
+echo '\ \ \ \ \ \ \ \ \ \ \ \ \"SQLite database file\": {}' >> rule.txt
+echo '\ \ \ \ \ \ \ \ \ \ \ \ \"SQLite3 database file\": {}' >> rule.txt
+echo '\ \ \ \ \ \ \ \ \ \ \ \ \"Microsoft BitLocker recovery key file\": {}' >> rule.txt
+echo '\ \ \ \ \ \ \ \ \ \ \ \ \"Microsoft BitLocker Trusted Platform Module password file\": {}' >> rule.txt
+echo '\ \ \ \ \ \ \ \ \ \ \ \ \"Windows BitLocker full volume encrypted data file\": {}' >> rule.txt
+echo '\ \ \ \ \ \ \ \ \ \ \ \ \"Java keystore file\": {}' >> rule.txt
+echo '\ \ \ \ \ \ \ \ \ \ \ \ \"Password Safe database file\": {}' >> rule.txt
+echo '\ \ \ \ \ \ \ \ \ \ \ \ \"Ruby On Rails secret token configuration file\": {}' >> rule.txt
+echo '\ \ \ \ \ \ \ \ \ \ \ \ \"Carrierwave configuration file\": {}' >> rule.txt
+echo '\ \ \ \ \ \ \ \ \ \ \ \ \"Potential Ruby On Rails database configuration file\": {}' >> rule.txt
+echo '\ \ \ \ \ \ \ \ \ \ \ \ \"OmniAuth configuration file\": {}' >> rule.txt
+echo '\ \ \ \ \ \ \ \ \ \ \ \ \"Django configuration file\": {}' >> rule.txt
+echo '\ \ \ \ \ \ \ \ \ \ \ \ \"1Password password manager database file\": {}' >> rule.txt
+echo '\ \ \ \ \ \ \ \ \ \ \ \ \"Apple Keychain database file\": {}' >> rule.txt
+echo '\ \ \ \ \ \ \ \ \ \ \ \ \"Network traffic capture file\": {}' >> rule.txt
+echo '\ \ \ \ \ \ \ \ \ \ \ \ \"GnuCash database file\": {}' >> rule.txt
+echo '\ \ \ \ \ \ \ \ \ \ \ \ \"Jenkins publish over SSH plugin file\": {}' >> rule.txt
+echo '\ \ \ \ \ \ \ \ \ \ \ \ \"Potential Jenkins credentials file\": {}' >> rule.txt
+echo '\ \ \ \ \ \ \ \ \ \ \ \ \"KDE Wallet Manager database file\": {}' >> rule.txt
+echo '\ \ \ \ \ \ \ \ \ \ \ \ \"Potential MediaWiki configuration file\": {}' >> rule.txt
+echo '\ \ \ \ \ \ \ \ \ \ \ \ \"Tunnelblick VPN configuration file\": {}' >> rule.txt
+echo '\ \ \ \ \ \ \ \ \ \ \ \ \"Sequel Pro MySQL database manager bookmark file\": {}' >> rule.txt
+echo '\ \ \ \ \ \ \ \ \ \ \ \ \"Little Snitch firewall configuration file\": {}' >> rule.txt
+echo '\ \ \ \ \ \ \ \ \ \ \ \ \"Day One journal file\": {}' >> rule.txt
+echo '\ \ \ \ \ \ \ \ \ \ \ \ \"Potential jrnl journal file\": {}' >> rule.txt
+echo '\ \ \ \ \ \ \ \ \ \ \ \ \"Chef Knife configuration file\": {}' >> rule.txt
+echo '\ \ \ \ \ \ \ \ \ \ \ \ \"cPanel backup ProFTPd credentials file\": {}' >> rule.txt
+echo '\ \ \ \ \ \ \ \ \ \ \ \ \"Robomongo MongoDB manager configuration file\": {}' >> rule.txt
+echo '\ \ \ \ \ \ \ \ \ \ \ \ \"FileZilla FTP configuration file\": {}' >> rule.txt
+echo '\ \ \ \ \ \ \ \ \ \ \ \ \"FileZilla FTP recent servers file\": {}' >> rule.txt
+echo '\ \ \ \ \ \ \ \ \ \ \ \ \"Ventrilo server configuration file\": {}' >> rule.txt
+echo '\ \ \ \ \ \ \ \ \ \ \ \ \"Terraform variable config file\": {}' >> rule.txt
+echo '\ \ \ \ \ \ \ \ \ \ \ \ \"Shell configuration file\": {}' >> rule.txt
+echo '\ \ \ \ \ \ \ \ \ \ \ \ \"Private SSH key\": {}' >> rule.txt
+echo '\ \ \ \ \ \ \ \ \ \ \ \ \"SSH configuration file\": {}' >> rule.txt
+echo '\ \ \ \ \ \ \ \ \ \ \ \ \"Potential cryptographic private key\": {}' >> rule.txt
+echo '\ \ \ \ \ \ \ \ \ \ \ \ \"Shell command history file\": {}' >> rule.txt
+echo '\ \ \ \ \ \ \ \ \ \ \ \ \"MySQL client command history file\": {}' >> rule.txt
+echo '\ \ \ \ \ \ \ \ \ \ \ \ \"PostgreSQL client command history file\": {}' >> rule.txt
+echo '\ \ \ \ \ \ \ \ \ \ \ \ \"PostgreSQL password file\": {}' >> rule.txt
+echo '\ \ \ \ \ \ \ \ \ \ \ \ \"Ruby IRB console history file\": {}' >> rule.txt
+echo '\ \ \ \ \ \ \ \ \ \ \ \ \"Pidgin chat client account configuration file\": {}' >> rule.txt
+echo '\ \ \ \ \ \ \ \ \ \ \ \ \"Hexchat/XChat IRC client server list configuration file\": {}' >> rule.txt
+echo '\ \ \ \ \ \ \ \ \ \ \ \ \"Irssi IRC client configuration file\": {}' >> rule.txt
+echo '\ \ \ \ \ \ \ \ \ \ \ \ \"Recon-ng web reconnaissance framework API key database\": {}' >> rule.txt
+echo '\ \ \ \ \ \ \ \ \ \ \ \ \"DBeaver SQL database manager configuration file\": {}' >> rule.txt
+echo '\ \ \ \ \ \ \ \ \ \ \ \ \"Mutt e-mail client configuration file\": {}' >> rule.txt
+echo '\ \ \ \ \ \ \ \ \ \ \ \ \"S3cmd configuration file\": {}' >> rule.txt
+echo '\ \ \ \ \ \ \ \ \ \ \ \ \"AWS CLI credentials file\": {}' >> rule.txt
+echo '\ \ \ \ \ \ \ \ \ \ \ \ \"SFTP connection configuration file\": {}' >> rule.txt
+echo '\ \ \ \ \ \ \ \ \ \ \ \ \"T command-line Twitter client configuration file\": {}' >> rule.txt
+echo '\ \ \ \ \ \ \ \ \ \ \ \ \"Shell configuration file\": {}' >> rule.txt
+echo '\ \ \ \ \ \ \ \ \ \ \ \ \"Shell profile configuration file\": {}' >> rule.txt
+echo '\ \ \ \ \ \ \ \ \ \ \ \ \"Shell command alias configuration file\": {}' >> rule.txt
+echo '\ \ \ \ \ \ \ \ \ \ \ \ \"PHP configuration file\": {}' >> rule.txt
+echo '\ \ \ \ \ \ \ \ \ \ \ \ \"GNOME Keyring database file\": {}' >> rule.txt
+echo '\ \ \ \ \ \ \ \ \ \ \ \ \"KeePass password manager database file\": {}' >> rule.txt
+echo '\ \ \ \ \ \ \ \ \ \ \ \ \"SQL dump file\": {}' >> rule.txt
+echo '\ \ \ \ \ \ \ \ \ \ \ \ \"Apache htpasswd file\": {}' >> rule.txt
+echo '\ \ \ \ \ \ \ \ \ \ \ \ \"Configuration file for auto-login process\": {}' >> rule.txt
+echo '\ \ \ \ \ \ \ \ \ \ \ \ \"Rubygems credentials file\": {}' >> rule.txt
+echo '\ \ \ \ \ \ \ \ \ \ \ \ \"Tugboat DigitalOcean management tool configuration\": {}' >> rule.txt
+echo '\ \ \ \ \ \ \ \ \ \ \ \ \"DigitalOcean doctl command-line client configuration file\": {}' >> rule.txt
+echo '\ \ \ \ \ \ \ \ \ \ \ \ \"git-credential-store helper credentials file\": {}' >> rule.txt
+echo '\ \ \ \ \ \ \ \ \ \ \ \ \"GitHub Hub command-line client configuration file\": {}' >> rule.txt
+echo '\ \ \ \ \ \ \ \ \ \ \ \ \"Git configuration file\": {}' >> rule.txt
 
 
 
@@ -330,10 +330,11 @@ echo '            "Git configuration file": {}' >> rule.txt
 i=1
 
 #规则循环
-for rulenum in `cat rule.txt | wc -l`
+rulenum=`cat rule.txt | wc -l`
+for((num=1;num<=rulenum;num+=1))
 do
 
-rule=`head -${rulenum} rule.txt | tail -1`
+rule=`head -${num} rule.txt | tail -1`
 echo $rule
 
 for line in `cat $var`
