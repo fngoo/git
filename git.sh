@@ -16,12 +16,12 @@ echo "cd dir_$i" >> dir_$i/${i}.sh
 echo "sed -e \"s/test/${line}/g\" rules.gsil > 1.txt ; mv 1.txt rules.gsil" >> dir_$i/${i}.sh
 echo "python3 gsil.py ${line}" >> dir_$i/${i}.sh
 echo "cd ../ ; rm -r dir_$i" >> dir_$i/${i}.sh
-echo "sleep 5" >> dir_$i/${i}.sh
+echo "sleep 10" >> dir_$i/${i}.sh
 echo "bash dir_$i/${i}.sh" >> exe.sh
 i=$((i+1))
 
 done
-cat exe.sh | parallel --jobs 1 --delay 5
+cat exe.sh | parallel --jobs 1
 rm exe.sh
 rm dir_* -r
 
