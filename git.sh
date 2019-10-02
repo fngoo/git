@@ -368,6 +368,7 @@ echo "sed -e \"s/num/${i}/g\" rules.gsil > 1.txt ; mv 1.txt rules.gsil" >> dir_$
 echo "sed -e \"s/dot/${dot}/g\" rules.gsil > 1.txt ; mv 1.txt rules.gsil" >> dir_$i/${i}.sh
 echo "sed -e \"s/test/${rule}/g\" rules.gsil > 1.txt ; mv 1.txt rules.gsil" >> dir_$i/${i}.sh
 echo "python3 gsil.py ${i}" >> dir_$i/${i}.sh
+echo "python3 gsil.py --report" >> dir_$i/${i}.sh
 echo "cd ../ ; rm -r dir_$i" >> dir_$i/${i}.sh
 echo "bash dir_$i/${i}.sh" >> exe.sh
 i=$((i+1))
@@ -382,7 +383,7 @@ rm exe.sh
 rm dir_* -r
 rm token.txt
 rm rule.txt
+rm -r logs
 
-python3 /root/script/git/GSIL/gsil.py --report
 ls
 rm -r /root/.gsil
