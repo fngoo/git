@@ -333,9 +333,12 @@ i=1
 for rule in `cat rule.txt`
 do
 
+echo $rule
+
 for line in `cat $var`
 do
 
+echo $line
 #grepnum=`cat $var | wc -l`
 #for((greperror=1;greperror<=${grepnum};greperror+=1))
 #do
@@ -346,7 +349,7 @@ sed -n -e "/${line}/=" $var > 1.txt
 for greperror in `cat 1.txt`
 do
 heads=`head -${greperror} $var | tail -1`
-if [ "${heads}" == "$line" ]
+if [ "${heads}" == "${line}" ]
 then
 token=`head -${greperror} token.txt | tail -1`
 fi
