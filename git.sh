@@ -337,7 +337,7 @@ for line in `cat $var`
 do
 
 takenum=`grep -n "${line}" $var | grep -oP ".*?(?=:)"`
-token=`head -$takenum token.txt | tail -1`
+token=`head -${takenum} token.txt | tail -1`
 
 mkdir dir_$i
 dot=`echo $line | grep -o -P ".*(?=\.)"`
