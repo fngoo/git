@@ -1,207 +1,205 @@
 #GSIL
 
 #token
-a=09f991315e6065bfd58c8d ; b=18eb8d631fa70c6b34
+a=e7e201b8f12f96a919f38 ; b=56264b95a779d4a308f
 c=$a$b ; echo "$c" >> token.txt
-a=6c76688158a84815ec82ed ; b=913af881078f189fb2
+a=e8d21bdc91cf2bc8e94b3 ; b=0926c9c6940d2611afd
 c=$a$b ; echo "$c" >> token.txt
-a=7af4f5285481316930a565 ; b=2dd660955fc5464a7c
+a=b20b8d54e7a19521a343f ; b=62a69761a18809efe8c
 c=$a$b ; echo "$c" >> token.txt
-a=1337f75e3e7a990fb0fdb8 ; b=42ce6e8386643014ba
+a=6da4eb4d81557c7d7378e ; b=9b9de72bbf2bd7be82f
 c=$a$b ; echo "$c" >> token.txt
-a=a0c3892973638241c1eb66 ; b=990fbeb907929ca236
+a=a955b7f4a6bdb8d08263c ; b=903b3e11f27148dbef3
 c=$a$b ; echo "$c" >> token.txt
-a=e9c61bf88829e961a47311 ; b=cb4430ebf4cb0226b7
+a=818fafe712094fe512b5a ; b=304de6e59545863bd27
 c=$a$b ; echo "$c" >> token.txt
-a=032660706cc35dd5e17a22 ; b=0b306cfc1a46e39d53
+a=790ed03ff1e972c8b4316 ; b=b6302fb6e5fcbf284e1
 c=$a$b ; echo "$c" >> token.txt
-a=945ad1a79bb925967dd5fa ; b=64f487314744032950
+a=035f45e71e3b8cf53202f ; b=00506ddbff8a7d7eda1
 c=$a$b ; echo "$c" >> token.txt
-a=066a8d7e690f7a54b9dd38 ; b=c2ced6fb35d5784e0a
+a=e27159ae9721247e6ff35 ; b=78dfde3461c5ae1f671
 c=$a$b ; echo "$c" >> token.txt
-a=2f898b76039c20b8c03e7c ; b=7bd9bae1d61eccf0e5
+a=ac50f8e76e5c7a72384fb ; b=04ea850167a6aeff36c
 c=$a$b ; echo "$c" >> token.txt
-a=7902237280e8bea138aa4b ; b=4ea554568f926dc193
+a=4ea633c77bc7a32858c27 ; b=abd2b46988e4f30da32
 c=$a$b ; echo "$c" >> token.txt
-a=16ef4a00f4a84831ce7dcf ; b=f2fe153978ed713e55
+a=0d1e79c0c5fa762c39d90 ; b=80587f5c195998ed0b3
 c=$a$b ; echo "$c" >> token.txt
-a=8ee98ddeb0ccc767362c52 ; b=070a0f701a71d0299e
+a=66f315cde9aae1b0d2add ; b=a6fc87ece91986befec
 c=$a$b ; echo "$c" >> token.txt
-a=9461cc433cef4a348a5483 ; b=a589082d781a99d154
+a=9dee1a600f8bd7810ebcc ; b=bcf134ba905dcdfc481
 c=$a$b ; echo "$c" >> token.txt
-a=c302d0acbf3a9ae16e0a00 ; b=93fcd55a55d4770559
+a=035d7e619fd0bee78dbbe ; b=72442e45656c0933ff2
 c=$a$b ; echo "$c" >> token.txt
-a=62797194be4a93d3ffe49a ; b=972c081bb7390cc666
+a=9b89b37ee61e913c961ab ; b=2a8e4da9e8956c97062
 c=$a$b ; echo "$c" >> token.txt
-a=c03e8cd319a99674a03435 ; b=f62d2dc42a4d57c322
+a=42e1675cae214c05ce384 ; b=39838a0cabba85acf70
 c=$a$b ; echo "$c" >> token.txt
-a=2e3a08c60f266db5cacc68 ; b=346fcb62492c87ec83
+a=837c4b800eca1fc8dd95c ; b=1b0e5542378cefc692d
 c=$a$b ; echo "$c" >> token.txt
-a=6479c6801c0e130b91e842 ; b=b18316eca340961c40
+a=004ccd5cb1eaca76249b4 ; b=7118f5fd8a7bae5deb2
 c=$a$b ; echo "$c" >> token.txt
-a=9b6cdc05e4dcb878966f11 ; b=8b7175d00438139b3d
+a=18d5085586c167902850d ; b=99f079f0968f694f6d3
 c=$a$b ; echo "$c" >> token.txt
-a=6bc8c57e5c93ec040f16d4 ; b=3e30288426d88d1cb8
+a=999c2a32c7c7a55126a41 ; b=436d6ed35f9723c7a74
 c=$a$b ; echo "$c" >> token.txt
-a=8accf2147eaee184259cdd ; b=24aafa9198504de8ad
+a=fc477b5e84a05ad0e4d40 ; b=446ebbf6d74a6a08f46
 c=$a$b ; echo "$c" >> token.txt
-a=91f5799338dbc17d1e022e ; b=3eabf328b49a0db534
+a=ed85179d2da33d0c03ac0 ; b=5714fcd2046da0314c5
 c=$a$b ; echo "$c" >> token.txt
-a=a7c9c6c3d466823f57f5c1 ; b=acf64f2ed1188e4a92
+a=878d4881c59d1c3c42bd3 ; b=7a4e1d7019928912379
 c=$a$b ; echo "$c" >> token.txt
-a=0911740cf4c1d6a1a6172f ; b=d50e1f0d2a6b768ba8
+a=50186d96a7e62352eb569 ; b=6e05c523ac58ab1967b
 c=$a$b ; echo "$c" >> token.txt
-a=0a4ca548bb1dfc32486fcc ; b=5c7175c6f7f907c4ac
+a=49c862c78b199cb947b8f ; b=a50395fe8deeac83fd7
 c=$a$b ; echo "$c" >> token.txt
-a=fbbc9ec034272c80fcbf38 ; b=fe3bb94e432777d462
+a=89a0b5df1f79f828402c8 ; b=7ca2549ec6670510587
 c=$a$b ; echo "$c" >> token.txt
-a=e2d7d6c144890f6e5de467 ; b=1a7b6a3b6927a7f800
+a=5b2d4669d6417b6ce7d77 ; b=b4f2b897b0fc32a47bd
 c=$a$b ; echo "$c" >> token.txt
-a=29d88e49b1c89f31dc8283 ; b=a20a9a898b5c0ac0b1
+a=260febf63c9733806685e ; b=48707bffba671d3dc2b
 c=$a$b ; echo "$c" >> token.txt
-a=5003d1bd5b7b6f118ee539 ; b=68292ef7a2111f3c98
+a=2aa33a4e3c45c8a242f52 ; b=9294a2d813b7eb0ba81
 c=$a$b ; echo "$c" >> token.txt
-a=0c7c6a080256867f6b7d1f ; b=3afc33a02f00b7c91a
+a=8ba686714ae1e1d2584ad ; b=d9bbe9fdae9bfb7ae98
 c=$a$b ; echo "$c" >> token.txt
-a=b3a3862eea2cdcf78256d8 ; b=648177e0def99e920a
+a=fae7c7ffbf7f8e91ea2e4 ; b=f99ad4bb3f2c614a7a6
 c=$a$b ; echo "$c" >> token.txt
-a=e6c51ec6c647532050f828 ; b=0f76131198e66211d9
+a=f560b2bed34d7bc0bb5ab ; b=14a9b96f35e0e7a0c09
 c=$a$b ; echo "$c" >> token.txt
-a=6eed26a046aca429b95d2c ; b=4079202bd5abcf8e05
+a=03161db4d5639f1cf2233 ; b=92d6713c16764c5ef61
 c=$a$b ; echo "$c" >> token.txt
-a=20e41b30286cb5ae15f663 ; b=5bf89b0dafb138e8ee
+a=99ced3c88c5f4cc9334be ; b=c52800e843ff2df7673
 c=$a$b ; echo "$c" >> token.txt
-a=8161ae5f3816e8e9044ae2 ; b=deccf906946f165068
+a=6f90ab74ae49e4d685c5f ; b=982dc11cd4e97009388
 c=$a$b ; echo "$c" >> token.txt
-a=cc68656a9df9960362daf1 ; b=b9af9b693de41ed17f
+a=5d2428c447c997e114930 ; b=f848aff2625a8e63cc1
 c=$a$b ; echo "$c" >> token.txt
-a=f723a3a636929b7d7af1f6 ; b=23860056828a0afe72
+a=375176c5146e0d78f1b51 ; b=64d764e8cbfd80372b4
 c=$a$b ; echo "$c" >> token.txt
-a=e7c67c785fee7c808cb436 ; b=aea5457c56d4bb1a05
+a=c1a8544316d790385890c ; b=15fe9c50fca4949b6c0
 c=$a$b ; echo "$c" >> token.txt
-a=12586a3144256e6b1c6609 ; b=5531325854b6aff209
+a=45a5d6c72acd5939aadeb ; b=d185859f428c082cd84
 c=$a$b ; echo "$c" >> token.txt
-a=8cbecf02f05355521def4d ; b=914618aeb5d6766be6
+a=30ff8844359961f4fd5fe ; b=a8c50fa0ada5708d132
 c=$a$b ; echo "$c" >> token.txt
-a=82ce5fec2b85011f53d0ab ; b=46221276efe566f112
+a=b0011c2e04a4e60225da6 ; b=96136e43f0b622a502f
 c=$a$b ; echo "$c" >> token.txt
-a=9ff769cb0f596aa87f2f7d ; b=55d467c379b59585a6
+a=e2e866f22bbdb81a920cb ; b=97d23c2e90d6e648f6a
 c=$a$b ; echo "$c" >> token.txt
-a=196b06cea5a03a6ece848d ; b=ce19920a1dbbbf5579
+a=38ee2ac98dc66eef65e5a ; b=0360087e416a7d4bec0
 c=$a$b ; echo "$c" >> token.txt
-a=e96b355facf4309cbbaaeb ; b=1b23b8202e7287f609
+a=d9a3ff4c05a16f5f7fddf ; b=a7ab7c144c7fecba642
 c=$a$b ; echo "$c" >> token.txt
-a=ca1dd3934d4361000f95f4 ; b=813e0ffe82ce2785c6
+a=2ae718272991d909da89a ; b=3546ca83d4b107e0368
 c=$a$b ; echo "$c" >> token.txt
-a=8780848f96da345be754c7 ; b=d262aad22caada44f1
+a=1493b0570b704ab57e3bd ; b=3686e454afd4795316f
 c=$a$b ; echo "$c" >> token.txt
-a=4b0253ece1abd3818445ee ; b=b29f8d952e6d3687a6
+a=d833b67cef67b7f2edbe6 ; b=2e211f9ed0543353d10
 c=$a$b ; echo "$c" >> token.txt
-a=2b11ef6f02cf7d532464c1 ; b=90b60fd2fc30da00e4
+a=b3ef92df69b43d8cdc393 ; b=53023a4938a3d7b5a0e
 c=$a$b ; echo "$c" >> token.txt
-a=536823b7b309e48bfe565e ; b=d49c3733805b12fb1b
+a=0b4494c0c2f0d415c149a ; b=0b20f607ceaad22da57
 c=$a$b ; echo "$c" >> token.txt
-a=fd5a24cb4dfa6df8282d01 ; b=2bc0fa2571917d442f
+a=e7e201b8f12f96a919f38 ; b=56264b95a779d4a308f
 c=$a$b ; echo "$c" >> token.txt
-a=7fe8e14d9f98bccb27e071 ; b=88f2bc02c95d9709a1
+a=e8d21bdc91cf2bc8e94b3 ; b=0926c9c6940d2611afd
 c=$a$b ; echo "$c" >> token.txt
-a=ae16b2c5445d986b2fcfad ; b=1a170fb4952af1a976
+a=b20b8d54e7a19521a343f ; b=62a69761a18809efe8c
 c=$a$b ; echo "$c" >> token.txt
-a=57b9283b3a2f3a84ec3136 ; b=dd7e32ecb44afb5864
+a=6da4eb4d81557c7d7378e ; b=9b9de72bbf2bd7be82f
 c=$a$b ; echo "$c" >> token.txt
-a=bac6db7d099fe25caaf987 ; b=b9322eac301096064b
+a=a955b7f4a6bdb8d08263c ; b=903b3e11f27148dbef3
 c=$a$b ; echo "$c" >> token.txt
-a=ffc156285de3df7e880a31 ; b=1c676122e826d28733
+a=818fafe712094fe512b5a ; b=304de6e59545863bd27
 c=$a$b ; echo "$c" >> token.txt
-a=9bf3857fecc113ab78ab7f ; b=ee6d7b731319cfc6c2
+a=790ed03ff1e972c8b4316 ; b=b6302fb6e5fcbf284e1
 c=$a$b ; echo "$c" >> token.txt
-a=f09fb1127b3db2d046a4a8 ; b=334a2c2ee821490f07
+a=035f45e71e3b8cf53202f ; b=00506ddbff8a7d7eda1
 c=$a$b ; echo "$c" >> token.txt
-a=9510ffc531106aa995c376 ; b=df242be8be8973ac4d
+a=e27159ae9721247e6ff35 ; b=78dfde3461c5ae1f671
 c=$a$b ; echo "$c" >> token.txt
-a=c7ad581770b02634bfb0f0 ; b=b2ec646c98bd422ef6
+a=ac50f8e76e5c7a72384fb ; b=04ea850167a6aeff36c
 c=$a$b ; echo "$c" >> token.txt
-a=11e975cee186b5d9f31ebf ; b=d92c482424b5c82427
+a=4ea633c77bc7a32858c27 ; b=abd2b46988e4f30da32
 c=$a$b ; echo "$c" >> token.txt
-a=09ec7154983c2b95571d95 ; b=46bbaf4f573abe9c02
+a=0d1e79c0c5fa762c39d90 ; b=80587f5c195998ed0b3
 c=$a$b ; echo "$c" >> token.txt
-a=f746141eb14910450746bc ; b=5d9323811b4d166259
+a=66f315cde9aae1b0d2add ; b=a6fc87ece91986befec
 c=$a$b ; echo "$c" >> token.txt
-a=f1012d3dbb48e6a61d6877 ; b=f6549517a6476d22e8
+a=9dee1a600f8bd7810ebcc ; b=bcf134ba905dcdfc481
 c=$a$b ; echo "$c" >> token.txt
-a=1bd0fe98cf0817a453e3c6 ; b=455890e612d05b1bfc
+a=035d7e619fd0bee78dbbe ; b=72442e45656c0933ff2
 c=$a$b ; echo "$c" >> token.txt
-a=3a9284622bf57dd79200f2 ; b=a882855896ed4c978a
+a=9b89b37ee61e913c961ab ; b=2a8e4da9e8956c97062
 c=$a$b ; echo "$c" >> token.txt
-a=8eb6fb8628ca97bc7d9b97 ; b=704199ccd71722fbd1
+a=42e1675cae214c05ce384 ; b=39838a0cabba85acf70
 c=$a$b ; echo "$c" >> token.txt
-a=bdf98b1dc328c9046fdfa6 ; b=e6ea54e0171b8f3440
+a=837c4b800eca1fc8dd95c ; b=1b0e5542378cefc692d
 c=$a$b ; echo "$c" >> token.txt
-a=2f5c18328c2a9e62dc173a ; b=d7cbf379433bd23bb2
+a=004ccd5cb1eaca76249b4 ; b=7118f5fd8a7bae5deb2
 c=$a$b ; echo "$c" >> token.txt
-a=e2a39019e8bdc213ba6685 ; b=23abd2bef30ef2d65c
+a=18d5085586c167902850d ; b=99f079f0968f694f6d3
 c=$a$b ; echo "$c" >> token.txt
-a=73e5414839d332f25b8e63 ; b=d2bac56c1c81b0f96d
+a=999c2a32c7c7a55126a41 ; b=436d6ed35f9723c7a74
 c=$a$b ; echo "$c" >> token.txt
-a=37c1f4864d23172de55588 ; b=283ccb0e99a2c4f2fe
+a=fc477b5e84a05ad0e4d40 ; b=446ebbf6d74a6a08f46
 c=$a$b ; echo "$c" >> token.txt
-a=bb424713ded6f7c96e84b5 ; b=80743523bef5dc5f78
+a=ed85179d2da33d0c03ac0 ; b=5714fcd2046da0314c5
 c=$a$b ; echo "$c" >> token.txt
-a=0d31d128ab93b08220b0bd ; b=7cb3f2498fcb568187
+a=878d4881c59d1c3c42bd3 ; b=7a4e1d7019928912379
 c=$a$b ; echo "$c" >> token.txt
-a=d837a09f1806be9c624508 ; b=0e5d99eaa00c166b1e
+a=50186d96a7e62352eb569 ; b=6e05c523ac58ab1967b
 c=$a$b ; echo "$c" >> token.txt
-a=ed54757f3e100745420c8f ; b=7d2c6427a9f0c83c58
+a=49c862c78b199cb947b8f ; b=a50395fe8deeac83fd7
 c=$a$b ; echo "$c" >> token.txt
-a=34005ee6ee2f3840899052 ; b=603fe191fc6f2eab57
+a=89a0b5df1f79f828402c8 ; b=7ca2549ec6670510587
 c=$a$b ; echo "$c" >> token.txt
-a=bfbf23795703649cb09cad ; b=b659850afd7f1f9405
+a=5b2d4669d6417b6ce7d77 ; b=b4f2b897b0fc32a47bd
 c=$a$b ; echo "$c" >> token.txt
-a=ff026315df5d4768c5de7d ; b=a40dd3e04d782f0ead
+a=260febf63c9733806685e ; b=48707bffba671d3dc2b
 c=$a$b ; echo "$c" >> token.txt
-a=23180291f49de4bd412668 ; b=3e098ab62a33fbb13a
+a=2aa33a4e3c45c8a242f52 ; b=9294a2d813b7eb0ba81
 c=$a$b ; echo "$c" >> token.txt
-a=ba12c2b5024653cca7112a ; b=00b5a14824f04e5ac1
+a=8ba686714ae1e1d2584ad ; b=d9bbe9fdae9bfb7ae98
 c=$a$b ; echo "$c" >> token.txt
-a=99cc7991349313d3193910 ; b=87d590809b2b32c842
+a=fae7c7ffbf7f8e91ea2e4 ; b=f99ad4bb3f2c614a7a6
 c=$a$b ; echo "$c" >> token.txt
-a=dff4347864bee1bf508705 ; b=3cdcb3897a8e912dab
+a=f560b2bed34d7bc0bb5ab ; b=14a9b96f35e0e7a0c09
 c=$a$b ; echo "$c" >> token.txt
-a=e067ded6e952bb0ba4d652 ; b=58b3db8dd5ad40cc63
+a=03161db4d5639f1cf2233 ; b=92d6713c16764c5ef61
 c=$a$b ; echo "$c" >> token.txt
-a=5232b79c8de032afb82bf6 ; b=5f51e772c3e06808fd
+a=99ced3c88c5f4cc9334be ; b=c52800e843ff2df7673
 c=$a$b ; echo "$c" >> token.txt
-a=7d7b40c83d005ed0696c48 ; b=4be8f145f9a05a89fc
+a=6f90ab74ae49e4d685c5f ; b=982dc11cd4e97009388
 c=$a$b ; echo "$c" >> token.txt
-a=7ea1c606ec85d449679edf ; b=2d635c8789b76252df
+a=5d2428c447c997e114930 ; b=f848aff2625a8e63cc1
 c=$a$b ; echo "$c" >> token.txt
-a=066b83545c9cf01040bae1 ; b=0488f141a7b35bde6d
+a=375176c5146e0d78f1b51 ; b=64d764e8cbfd80372b4
 c=$a$b ; echo "$c" >> token.txt
-a=0390fae4cbe07223a860e4 ; b=a0b471de8ce7fd4185
+a=c1a8544316d790385890c ; b=15fe9c50fca4949b6c0
 c=$a$b ; echo "$c" >> token.txt
-a=87375188584e50204e1799 ; b=02e0c84cadd4f45e77
+a=45a5d6c72acd5939aadeb ; b=d185859f428c082cd84
 c=$a$b ; echo "$c" >> token.txt
-a=4808fd1602e91f9ead5004 ; b=b207d6646300121ad3
+a=30ff8844359961f4fd5fe ; b=a8c50fa0ada5708d132
 c=$a$b ; echo "$c" >> token.txt
-a=ef01b27606d4417e3217c1 ; b=e880a4918d3f1983b5
+a=b0011c2e04a4e60225da6 ; b=96136e43f0b622a502f
 c=$a$b ; echo "$c" >> token.txt
-a=2b03e924c935e49cfb9aa5 ; b=f43a1fc5a9e8aeca57
+a=e2e866f22bbdb81a920cb ; b=97d23c2e90d6e648f6a
 c=$a$b ; echo "$c" >> token.txt
-a=cf2f7a26a262feb877d246 ; b=da5c8da314e480f5ae
+a=38ee2ac98dc66eef65e5a ; b=0360087e416a7d4bec0
 c=$a$b ; echo "$c" >> token.txt
-a=cd0276ab4177703eb9da2d ; b=e380bf01220715c11f
+a=d9a3ff4c05a16f5f7fddf ; b=a7ab7c144c7fecba642
 c=$a$b ; echo "$c" >> token.txt
-a=6ea05d411c660e76725a98 ; b=8d0b4c1fbdfec47fc5
+a=2ae718272991d909da89a ; b=3546ca83d4b107e0368
 c=$a$b ; echo "$c" >> token.txt
-a=b0f12d1e14ea91ed9468a3 ; b=443642f6bc377b8ad3
+a=1493b0570b704ab57e3bd ; b=3686e454afd4795316f
 c=$a$b ; echo "$c" >> token.txt
-a=ee8da57477e4f60d20d025 ; b=b81315326e786bce8c
+a=d833b67cef67b7f2edbe6 ; b=2e211f9ed0543353d10
 c=$a$b ; echo "$c" >> token.txt
-a=54bc9de903dedac8fabecb ; b=ea6d57b8e06a51e202
+a=b3ef92df69b43d8cdc393 ; b=53023a4938a3d7b5a0e
 c=$a$b ; echo "$c" >> token.txt
-a=94c9eefbdcb955e68cc50c ; b=c4caa540288cea3c5b
-c=$a$b ; echo "$c" >> token.txt
-a=0af5a56df11d928f76de90 ; b=357c727c0d66c2c02f
+a=0b4494c0c2f0d415c149a ; b=0b20f607ceaad22da57
 c=$a$b ; echo "$c" >> token.txt
 
 #rule
@@ -377,7 +375,7 @@ i=$((i+1))
 done
 done
 
-cat exe.sh | parallel --jobs 20 --delay 1
+cat exe.sh | parallel --jobs 25 --delay 1
 s=hooks.sl ; c=ack.com/ser ; k=vices/TM26L9 ; sck=$s$c$k ; curl -X POST -H "Content-type:application/json" --data '{"text":"GSIL ; rm -r /root/.gsil"}' https://${sck}ZEE/BM78UTLGH/GBt3k5B25BqAyc5EDzYPDdhg
 rm exe.sh
 rm dir_* -r
