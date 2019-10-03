@@ -375,7 +375,7 @@ i=$((i+1))
 done
 done
 
-cat exe.sh | parallel --jobs 25 --delay 1
+cat exe.sh | parallel --jobs 5 --delay 1
 s=hooks.sl ; c=ack.com/ser ; k=vices/TM26L9 ; sck=$s$c$k ; curl -X POST -H "Content-type:application/json" --data '{"text":"GSIL ; rm -r /root/.gsil"}' https://${sck}ZEE/BM78UTLGH/GBt3k5B25BqAyc5EDzYPDdhg
 rm exe.sh
 rm dir_* -r
