@@ -1,360 +1,310 @@
 #GSIL
 
-#user
-a=githubkuruma1 ; curl -i -u "${a}:sTeAmgithub1" https://api.github.com/
-a=githubkuruma2 ; curl -i -u "${a}:sTeAmgithub1" https://api.github.com
-a=githubkuruma3 ; curl -i -u "${a}:sTeAmgithub1" https://api.github.com
-a=githubkuruma4 ; curl -i -u "${a}:sTeAmgithub1" https://api.github.com
-a=githubkuruma5 ; curl -i -u "${a}:sTeAmgithub1" https://api.github.com
-a=githubkuruma6 ; curl -i -u "${a}:sTeAmgithub1" https://api.github.com
-a=githubkuruma7 ; curl -i -u "${a}:sTeAmgithub1" https://api.github.com
-a=githubkuruma8 ; curl -i -u "${a}:sTeAmgithub1" https://api.github.com
-a=githubkuruma9 ; curl -i -u "${a}:sTeAmgithub1" https://api.github.com
-a=githubkuruma10 ; curl -i -u "${a}:sTeAmgithub1" https://api.github.com
-a=githubkuruma11 ; curl -i -u "${a}:sTeAmgithub1" https://api.github.com
-a=githubkuruma12 ; curl -i -u "${a}:sTeAmgithub1" https://api.github.com
-a=githubkuruma13 ; curl -i -u "${a}:sTeAmgithub1" https://api.github.com
-a=githubkuruma14 ; curl -i -u "${a}:sTeAmgithub1" https://api.github.com
-a=githubkuruma15 ; curl -i -u "${a}:sTeAmgithub1" https://api.github.com
-a=githubkuruma16 ; curl -i -u "${a}:sTeAmgithub1" https://api.github.com
-a=githubkuruma17 ; curl -i -u "${a}:sTeAmgithub1" https://api.github.com
-a=githubkuruma18 ; curl -i -u "${a}:sTeAmgithub1" https://api.github.com
-a=githubkuruma19 ; curl -i -u "${a}:sTeAmgithub1" https://api.github.com
-a=githubkuruma20 ; curl -i -u "${a}:sTeAmgithub1" https://api.github.com
-a=githubkuruma21 ; curl -i -u "${a}:sTeAmgithub1" https://api.github.com
-a=githubkuruma22 ; curl -i -u "${a}:sTeAmgithub1" https://api.github.com
-a=githubkuruma23 ; curl -i -u "${a}:sTeAmgithub1" https://api.github.com
-a=githubkuruma24 ; curl -i -u "${a}:sTeAmgithub1" https://api.github.com
-a=githubkuruma25 ; curl -i -u "${a}:sTeAmgithub1" https://api.github.com
-a=githubkuruma26 ; curl -i -u "${a}:sTeAmgithub1" https://api.github.com
-a=githubkuruma27 ; curl -i -u "${a}:sTeAmgithub1" https://api.github.com
-a=githubkuruma28 ; curl -i -u "${a}:sTeAmgithub1" https://api.github.com
-a=githubkuruma29 ; curl -i -u "${a}:sTeAmgithub1" https://api.github.com
-a=githubkuruma30 ; curl -i -u "${a}:sTeAmgithub1" https://api.github.com
-a=githubkuruma31 ; curl -i -u "${a}:sTeAmgithub1" https://api.github.com
-a=githubkuruma32 ; curl -i -u "${a}:sTeAmgithub1" https://api.github.com
-a=githubkuruma33 ; curl -i -u "${a}:sTeAmgithub1" https://api.github.com
-a=githubkuruma34 ; curl -i -u "${a}:sTeAmgithub1" https://api.github.com
-a=githubkuruma35 ; curl -i -u "${a}:sTeAmgithub1" https://api.github.com
-a=githubkuruma36 ; curl -i -u "${a}:sTeAmgithub1" https://api.github.com
-a=githubkuruma37 ; curl -i -u "${a}:sTeAmgithub1" https://api.github.com
-a=githubkuruma38 ; curl -i -u "${a}:sTeAmgithub1" https://api.github.com
-a=githubkuruma39 ; curl -i -u "${a}:sTeAmgithub1" https://api.github.com
-a=githubkuruma40 ; curl -i -u "${a}:sTeAmgithub1" https://api.github.com
-a=githubkuruma41 ; curl -i -u "${a}:sTeAmgithub1" https://api.github.com
-a=githubkuruma42 ; curl -i -u "${a}:sTeAmgithub1" https://api.github.com
-a=githubkuruma43 ; curl -i -u "${a}:sTeAmgithub1" https://api.github.com
-a=githubkuruma44 ; curl -i -u "${a}:sTeAmgithub1" https://api.github.com
-a=githubkuruma45 ; curl -i -u "${a}:sTeAmgithub1" https://api.github.com
-a=githubkuruma46 ; curl -i -u "${a}:sTeAmgithub1" https://api.github.com
-a=githubkuruma47 ; curl -i -u "${a}:sTeAmgithub1" https://api.github.com
-a=githubkuruma48 ; curl -i -u "${a}:sTeAmgithub1" https://api.github.com
-a=githubkuruma49 ; curl -i -u "${a}:sTeAmgithub1" https://api.github.com
-a=githubkuruma50 ; curl -i -u "${a}:sTeAmgithub1" https://api.github.com
+
 #token
-q=e7e201b8f12f96a919f38562 ; w=64b95a779d4a308f ; e=$q$w ; echo "${e},sed" > 2.txt
-q=e8d21bdc91cf2bc8e94b3092 ; w=6c9c6940d2611afd ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
-q=b20b8d54e7a19521a343f62a ; w=69761a18809efe8c ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
-q=6da4eb4d81557c7d7378e9b9 ; w=de72bbf2bd7be82f ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
-q=a955b7f4a6bdb8d08263c903 ; w=b3e11f27148dbef3 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
-q=818fafe712094fe512b5a304 ; w=de6e59545863bd27 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
-q=790ed03ff1e972c8b4316b63 ; w=02fb6e5fcbf284e1 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
-q=035f45e71e3b8cf53202f005 ; w=06ddbff8a7d7eda1 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
-q=e27159ae9721247e6ff3578d ; w=fde3461c5ae1f671 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
-q=ac50f8e76e5c7a72384fb04e ; w=a850167a6aeff36c ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
-q=4ea633c77bc7a32858c27abd ; w=2b46988e4f30da32 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
-q=0d1e79c0c5fa762c39d90805 ; w=87f5c195998ed0b3 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
-q=66f315cde9aae1b0d2adda6f ; w=c87ece91986befec ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
-q=9dee1a600f8bd7810ebccbcf ; w=134ba905dcdfc481 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
-q=035d7e619fd0bee78dbbe724 ; w=42e45656c0933ff2 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
-q=9b89b37ee61e913c961ab2a8 ; w=e4da9e8956c97062 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
-q=42e1675cae214c05ce384398 ; w=38a0cabba85acf70 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
-q=837c4b800eca1fc8dd95c1b0 ; w=e5542378cefc692d ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
-q=004ccd5cb1eaca76249b4711 ; w=8f5fd8a7bae5deb2 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
-q=18d5085586c167902850d99f ; w=079f0968f694f6d3 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
-q=999c2a32c7c7a55126a41436 ; w=d6ed35f9723c7a74 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
-q=fc477b5e84a05ad0e4d40446 ; w=ebbf6d74a6a08f46 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
-q=ed85179d2da33d0c03ac0571 ; w=4fcd2046da0314c5 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
-q=878d4881c59d1c3c42bd37a4 ; w=e1d7019928912379 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
-q=50186d96a7e62352eb5696e0 ; w=5c523ac58ab1967b ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
-q=49c862c78b199cb947b8fa50 ; w=395fe8deeac83fd7 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
-q=89a0b5df1f79f828402c87ca ; w=2549ec6670510587 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
-q=5b2d4669d6417b6ce7d77b4f ; w=2b897b0fc32a47bd ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
-q=260febf63c9733806685e487 ; w=07bffba671d3dc2b ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
-q=2aa33a4e3c45c8a242f52929 ; w=4a2d813b7eb0ba81 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
-q=8ba686714ae1e1d2584add9b ; w=be9fdae9bfb7ae98 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
-q=fae7c7ffbf7f8e91ea2e4f99 ; w=ad4bb3f2c614a7a6 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
-q=f560b2bed34d7bc0bb5ab14a ; w=9b96f35e0e7a0c09 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
-q=03161db4d5639f1cf223392d ; w=6713c16764c5ef61 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
-q=99ced3c88c5f4cc9334bec52 ; w=800e843ff2df7673 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
-q=6f90ab74ae49e4d685c5f982 ; w=dc11cd4e97009388 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
-q=5d2428c447c997e114930f84 ; w=8aff2625a8e63cc1 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
-q=375176c5146e0d78f1b5164d ; w=764e8cbfd80372b4 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
-q=c1a8544316d790385890c15f ; w=e9c50fca4949b6c0 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
-q=45a5d6c72acd5939aadebd18 ; w=5859f428c082cd84 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
-q=30ff8844359961f4fd5fea8c ; w=50fa0ada5708d132 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
-q=b0011c2e04a4e60225da6961 ; w=36e43f0b622a502f ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
-q=e2e866f22bbdb81a920cb97d ; w=23c2e90d6e648f6a ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
-q=38ee2ac98dc66eef65e5a036 ; w=0087e416a7d4bec0 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
-q=d9a3ff4c05a16f5f7fddfa7a ; w=b7c144c7fecba642 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
-q=2ae718272991d909da89a354 ; w=6ca83d4b107e0368 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
-q=1493b0570b704ab57e3bd368 ; w=6e454afd4795316f ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
-q=d833b67cef67b7f2edbe62e2 ; w=11f9ed0543353d10 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
-q=b3ef92df69b43d8cdc393530 ; w=23a4938a3d7b5a0e ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
-q=0b4494c0c2f0d415c149a0b2 ; w=0f607ceaad22da57 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
-q=e7e201b8f12f96a919f38562 ; w=64b95a779d4a308f ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
-q=e8d21bdc91cf2bc8e94b3092 ; w=6c9c6940d2611afd ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
-q=b20b8d54e7a19521a343f62a ; w=69761a18809efe8c ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
-q=6da4eb4d81557c7d7378e9b9 ; w=de72bbf2bd7be82f ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
-q=a955b7f4a6bdb8d08263c903 ; w=b3e11f27148dbef3 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
-q=818fafe712094fe512b5a304 ; w=de6e59545863bd27 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
-q=790ed03ff1e972c8b4316b63 ; w=02fb6e5fcbf284e1 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
-q=035f45e71e3b8cf53202f005 ; w=06ddbff8a7d7eda1 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
-q=e27159ae9721247e6ff3578d ; w=fde3461c5ae1f671 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
-q=ac50f8e76e5c7a72384fb04e ; w=a850167a6aeff36c ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
-q=4ea633c77bc7a32858c27abd ; w=2b46988e4f30da32 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
-q=0d1e79c0c5fa762c39d90805 ; w=87f5c195998ed0b3 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
-q=66f315cde9aae1b0d2adda6f ; w=c87ece91986befec ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
-q=9dee1a600f8bd7810ebccbcf ; w=134ba905dcdfc481 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
-q=035d7e619fd0bee78dbbe724 ; w=42e45656c0933ff2 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
-q=9b89b37ee61e913c961ab2a8 ; w=e4da9e8956c97062 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
-q=42e1675cae214c05ce384398 ; w=38a0cabba85acf70 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
-q=837c4b800eca1fc8dd95c1b0 ; w=e5542378cefc692d ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
-q=004ccd5cb1eaca76249b4711 ; w=8f5fd8a7bae5deb2 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
-q=18d5085586c167902850d99f ; w=079f0968f694f6d3 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
-q=999c2a32c7c7a55126a41436 ; w=d6ed35f9723c7a74 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
-q=fc477b5e84a05ad0e4d40446 ; w=ebbf6d74a6a08f46 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
-q=ed85179d2da33d0c03ac0571 ; w=4fcd2046da0314c5 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
-q=878d4881c59d1c3c42bd37a4 ; w=e1d7019928912379 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
-q=50186d96a7e62352eb5696e0 ; w=5c523ac58ab1967b ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
-q=49c862c78b199cb947b8fa50 ; w=395fe8deeac83fd7 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
-q=89a0b5df1f79f828402c87ca ; w=2549ec6670510587 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
-q=5b2d4669d6417b6ce7d77b4f ; w=2b897b0fc32a47bd ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
-q=260febf63c9733806685e487 ; w=07bffba671d3dc2b ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
-q=2aa33a4e3c45c8a242f52929 ; w=4a2d813b7eb0ba81 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
-q=8ba686714ae1e1d2584add9b ; w=be9fdae9bfb7ae98 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
-q=fae7c7ffbf7f8e91ea2e4f99 ; w=ad4bb3f2c614a7a6 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
-q=f560b2bed34d7bc0bb5ab14a ; w=9b96f35e0e7a0c09 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
-q=03161db4d5639f1cf223392d ; w=6713c16764c5ef61 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
-q=99ced3c88c5f4cc9334bec52 ; w=800e843ff2df7673 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
-q=6f90ab74ae49e4d685c5f982 ; w=dc11cd4e97009388 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
-q=5d2428c447c997e114930f84 ; w=8aff2625a8e63cc1 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
-q=375176c5146e0d78f1b5164d ; w=764e8cbfd80372b4 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
-q=c1a8544316d790385890c15f ; w=e9c50fca4949b6c0 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
-q=45a5d6c72acd5939aadebd18 ; w=5859f428c082cd84 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
-q=30ff8844359961f4fd5fea8c ; w=50fa0ada5708d132 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
-q=b0011c2e04a4e60225da6961 ; w=36e43f0b622a502f ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
-q=e2e866f22bbdb81a920cb97d ; w=23c2e90d6e648f6a ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
-q=38ee2ac98dc66eef65e5a036 ; w=0087e416a7d4bec0 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
-q=d9a3ff4c05a16f5f7fddfa7a ; w=b7c144c7fecba642 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
-q=2ae718272991d909da89a354 ; w=6ca83d4b107e0368 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
-q=1493b0570b704ab57e3bd368 ; w=6e454afd4795316f ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
-q=d833b67cef67b7f2edbe62e2 ; w=11f9ed0543353d10 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
-q=b3ef92df69b43d8cdc393530 ; w=23a4938a3d7b5a0e ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
-q=0b4494c0c2f0d415c149a0b2 ; w=0f607ceaad22da57 ; e=$q$w ; sed -e "s/sed/${e}/g" 2.txt > 3.txt ; mv 3.txt 2.txt
+q=03be2b42f7e24c6af8 ; w=c54f75a3c39899c490e8d5 ; e=$q$w ; echo "${e},sed" > 2.txt
+q=e610d9053392eb8b90 ; w=20ea9ba9de96b257bce947 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
+q=0555d8a2afb08faf86 ; w=32e3d5a2b7bf417e9a3047 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
+q=3f49ef72b9e20b20fc ; w=08780b983c0a5f4d00607d ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
+q=b288752ed00112b930 ; w=f3ada22444090152b94398 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
+q=96edd64fa8db7bccef ; w=4ad1a506934018716610fe ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
+q=04db40d85596894855 ; w=74a4b644dfebd3eb3f3cab ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
+q=7579b0931f23dcc2b8 ; w=a8615fd18ff92e2eef8ee0 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
+q=bb86ea94f0933d1c42 ; w=1c4bc36a7a70fb10c78bc1 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
+q=e4db66ded7aeb37f4a ; w=f2ac71886f45f1bd470b47 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
+q=0f61c8a7a38370cd9f ; w=dc71a37968ab1e0f6c83de ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
+q=1d15ac99f6a1372217 ; w=89a4d300ae4bd0d95dc217 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
+q=a6cdc74c94fd1d6c9b ; w=0926c624698219b97c55f6 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
+q=a7eaf139f952e60f04 ; w=bfc92879bcaf5ee56a3404 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
+q=b90d25fcab1661564d ; w=c203f8c74ae3a90a10f621 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
+q=d3e3489460ffdba7c2 ; w=d56e1a938821507aa6e6aa ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
+q=152cfba49d2ac2f462 ; w=2f9b0da2d247bb23b7136a ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
+q=902cce14b8c5422beb ; w=569d231ec0fcdf55b7ce89 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
+q=5a959bdf272d3b88a9 ; w=f53c5014a855df6f9d98bf ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
+q=88aff4cce2d0d8c4dd ; w=9fe060ff2b49c4883efef5 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
+q=52dd08e4a83be566d8 ; w=e3731873865bc7028cbbc1 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
+q=fc477b5e84a05ad0e4 ; w=d40446ebbf6d74a6a08f46 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
+q=ed85179d2da33d0c03 ; w=ac05714fcd2046da0314c5 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
+q=d5fdcd4f5cb64b9d2d ; w=20a0587754d6143df30b00 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
+q=50186d96a7e62352eb ; w=5696e05c523ac58ab1967b ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
+q=49c862c78b199cb947 ; w=b8fa50395fe8deeac83fd7 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
+q=89a0b5df1f79f82840 ; w=2c87ca2549ec6670510587 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
+q=5b2d4669d6417b6ce7 ; w=d77b4f2b897b0fc32a47bd ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
+q=260febf63c97338066 ; w=85e48707bffba671d3dc2b ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
+q=2aa33a4e3c45c8a242 ; w=f529294a2d813b7eb0ba81 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
+q=8ba686714ae1e1d258 ; w=4add9bbe9fdae9bfb7ae98 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
+q=fae7c7ffbf7f8e91ea ; w=2e4f99ad4bb3f2c614a7a6 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
+q=f560b2bed34d7bc0bb ; w=5ab14a9b96f35e0e7a0c09 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
+q=03161db4d5639f1cf2 ; w=23392d6713c16764c5ef61 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
+q=99ced3c88c5f4cc933 ; w=4bec52800e843ff2df7673 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
+q=6f90ab74ae49e4d685 ; w=c5f982dc11cd4e97009388 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
+q=5d2428c447c997e114 ; w=930f848aff2625a8e63cc1 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
+q=375176c5146e0d78f1 ; w=b5164d764e8cbfd80372b4 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
+q=c1a8544316d7903858 ; w=90c15fe9c50fca4949b6c0 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
+q=4b2ccdd6c937e0ba09 ; w=80aae894447a4eb269cc02 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
+q=fbe5018cc6dbf8ce5d ; w=392cb860aa67fb1f083646 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
+q=1fd9c213c3cabba06e ; w=c7c7e847bbdbc74430c710 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
+q=e6f9421397e2d2b61a ; w=aeb17ef54e1fcd79322027 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
+q=87ebcbddd264510b75 ; w=dc425191b3171579a5cccc ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
+q=5ad59632041ddcd00c ; w=74e3e39dab857b2c3afe89 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
+q=ccf3668b9d6947f820 ; w=2ca8beff54c80c3c5cf2fe ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
+q=f2d1b92d1bb0dcb347 ; w=6bbf290becda8cd46e2893 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
+q=c8abc643b976337b49 ; w=86a28a40252f35ecf62486 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
+q=4826b97c2cc953a768 ; w=bbe2ce3189681abf05f48c ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
+q=a87db280ddccd672c2 ; w=3ab5dfa80eb28ce014ad7c ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
+q=03be2b42f7e24c6af8 ; w=c54f75a3c39899c490e8d5 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
+q=e610d9053392eb8b90 ; w=20ea9ba9de96b257bce947 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
+q=0555d8a2afb08faf86 ; w=32e3d5a2b7bf417e9a3047 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
+q=3f49ef72b9e20b20fc ; w=08780b983c0a5f4d00607d ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
+q=b288752ed00112b930 ; w=f3ada22444090152b94398 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
+q=96edd64fa8db7bccef ; w=4ad1a506934018716610fe ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
+q=04db40d85596894855 ; w=74a4b644dfebd3eb3f3cab ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
+q=7579b0931f23dcc2b8 ; w=a8615fd18ff92e2eef8ee0 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
+q=bb86ea94f0933d1c42 ; w=1c4bc36a7a70fb10c78bc1 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
+q=e4db66ded7aeb37f4a ; w=f2ac71886f45f1bd470b47 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
+q=0f61c8a7a38370cd9f ; w=dc71a37968ab1e0f6c83de ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
+q=1d15ac99f6a1372217 ; w=89a4d300ae4bd0d95dc217 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
+q=a6cdc74c94fd1d6c9b ; w=0926c624698219b97c55f6 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
+q=a7eaf139f952e60f04 ; w=bfc92879bcaf5ee56a3404 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
+q=b90d25fcab1661564d ; w=c203f8c74ae3a90a10f621 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
+q=d3e3489460ffdba7c2 ; w=d56e1a938821507aa6e6aa ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
+q=152cfba49d2ac2f462 ; w=2f9b0da2d247bb23b7136a ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
+q=902cce14b8c5422beb ; w=569d231ec0fcdf55b7ce89 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
+q=5a959bdf272d3b88a9 ; w=f53c5014a855df6f9d98bf ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
+q=88aff4cce2d0d8c4dd ; w=9fe060ff2b49c4883efef5 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
+q=52dd08e4a83be566d8 ; w=e3731873865bc7028cbbc1 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
+q=fc477b5e84a05ad0e4 ; w=d40446ebbf6d74a6a08f46 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
+q=ed85179d2da33d0c03 ; w=ac05714fcd2046da0314c5 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
+q=d5fdcd4f5cb64b9d2d ; w=20a0587754d6143df30b00 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
+q=50186d96a7e62352eb ; w=5696e05c523ac58ab1967b ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
+q=49c862c78b199cb947 ; w=b8fa50395fe8deeac83fd7 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
+q=89a0b5df1f79f82840 ; w=2c87ca2549ec6670510587 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
+q=5b2d4669d6417b6ce7 ; w=d77b4f2b897b0fc32a47bd ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
+q=260febf63c97338066 ; w=85e48707bffba671d3dc2b ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
+q=2aa33a4e3c45c8a242 ; w=f529294a2d813b7eb0ba81 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
+q=8ba686714ae1e1d258 ; w=4add9bbe9fdae9bfb7ae98 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
+q=fae7c7ffbf7f8e91ea ; w=2e4f99ad4bb3f2c614a7a6 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
+q=f560b2bed34d7bc0bb ; w=5ab14a9b96f35e0e7a0c09 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
+q=03161db4d5639f1cf2 ; w=23392d6713c16764c5ef61 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
+q=99ced3c88c5f4cc933 ; w=4bec52800e843ff2df7673 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
+q=6f90ab74ae49e4d685 ; w=c5f982dc11cd4e97009388 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
+q=5d2428c447c997e114 ; w=930f848aff2625a8e63cc1 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
+q=375176c5146e0d78f1 ; w=b5164d764e8cbfd80372b4 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
+q=c1a8544316d7903858 ; w=90c15fe9c50fca4949b6c0 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
+q=4b2ccdd6c937e0ba09 ; w=80aae894447a4eb269cc02 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
+q=fbe5018cc6dbf8ce5d ; w=392cb860aa67fb1f083646 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
+q=1fd9c213c3cabba06e ; w=c7c7e847bbdbc74430c710 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
+q=e6f9421397e2d2b61a ; w=aeb17ef54e1fcd79322027 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
+q=87ebcbddd264510b75 ; w=dc425191b3171579a5cccc ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
+q=5ad59632041ddcd00c ; w=74e3e39dab857b2c3afe89 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
+q=ccf3668b9d6947f820 ; w=2ca8beff54c80c3c5cf2fe ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
+q=f2d1b92d1bb0dcb347 ; w=6bbf290becda8cd46e2893 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
+q=c8abc643b976337b49 ; w=86a28a40252f35ecf62486 ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
+q=4826b97c2cc953a768 ; w=bbe2ce3189681abf05f48c ; e=$q$w ; sed -e "s/sed/${e},sed/g" 2.txt > 3.txt ; mv 3.txt 2.txt
+q=a87db280ddccd672c2 ; w=3ab5dfa80eb28ce014ad7c ; e=$q$w ; sed -e "s/sed/${e}/g" 2.txt > 3.txt ; mv 3.txt 2.txt
 d=`cat 2.txt`
 
-a=e7e201b8f12f96a919f38 ; b=56264b95a779d4a308f
+a=03be2b42f7e24c6af8 ; b=c54f75a3c39899c490e8d5
 c=$a$b ; echo "${c},${d}" >> token.txt
-a=e8d21bdc91cf2bc8e94b3 ; b=0926c9c6940d2611afd
+a=e610d9053392eb8b90 ; b=20ea9ba9de96b257bce947
 c=$a$b ; echo "${c},${d}" >> token.txt
-a=b20b8d54e7a19521a343f ; b=62a69761a18809efe8c
+a=0555d8a2afb08faf86 ; b=32e3d5a2b7bf417e9a3047
 c=$a$b ; echo "${c},${d}" >> token.txt
-a=6da4eb4d81557c7d7378e ; b=9b9de72bbf2bd7be82f
+a=3f49ef72b9e20b20fc ; b=08780b983c0a5f4d00607d
 c=$a$b ; echo "${c},${d}" >> token.txt
-a=a955b7f4a6bdb8d08263c ; b=903b3e11f27148dbef3
+a=b288752ed00112b930 ; b=f3ada22444090152b94398
 c=$a$b ; echo "${c},${d}" >> token.txt
-a=818fafe712094fe512b5a ; b=304de6e59545863bd27
+a=96edd64fa8db7bccef ; b=4ad1a506934018716610fe
 c=$a$b ; echo "${c},${d}" >> token.txt
-a=790ed03ff1e972c8b4316 ; b=b6302fb6e5fcbf284e1
+a=04db40d85596894855 ; b=74a4b644dfebd3eb3f3cab
 c=$a$b ; echo "${c},${d}" >> token.txt
-a=035f45e71e3b8cf53202f ; b=00506ddbff8a7d7eda1
+a=7579b0931f23dcc2b8 ; b=a8615fd18ff92e2eef8ee0
 c=$a$b ; echo "${c},${d}" >> token.txt
-a=e27159ae9721247e6ff35 ; b=78dfde3461c5ae1f671
+a=bb86ea94f0933d1c42 ; b=1c4bc36a7a70fb10c78bc1
 c=$a$b ; echo "${c},${d}" >> token.txt
-a=ac50f8e76e5c7a72384fb ; b=04ea850167a6aeff36c
+a=e4db66ded7aeb37f4a ; b=f2ac71886f45f1bd470b47
 c=$a$b ; echo "${c},${d}" >> token.txt
-a=4ea633c77bc7a32858c27 ; b=abd2b46988e4f30da32
+a=0f61c8a7a38370cd9f ; b=dc71a37968ab1e0f6c83de
 c=$a$b ; echo "${c},${d}" >> token.txt
-a=0d1e79c0c5fa762c39d90 ; b=80587f5c195998ed0b3
+a=1d15ac99f6a1372217 ; b=89a4d300ae4bd0d95dc217
 c=$a$b ; echo "${c},${d}" >> token.txt
-a=66f315cde9aae1b0d2add ; b=a6fc87ece91986befec
+a=a6cdc74c94fd1d6c9b ; b=0926c624698219b97c55f6
 c=$a$b ; echo "${c},${d}" >> token.txt
-a=9dee1a600f8bd7810ebcc ; b=bcf134ba905dcdfc481
+a=a7eaf139f952e60f04 ; b=bfc92879bcaf5ee56a3404
 c=$a$b ; echo "${c},${d}" >> token.txt
-a=035d7e619fd0bee78dbbe ; b=72442e45656c0933ff2
+a=b90d25fcab1661564d ; b=c203f8c74ae3a90a10f621
 c=$a$b ; echo "${c},${d}" >> token.txt
-a=9b89b37ee61e913c961ab ; b=2a8e4da9e8956c97062
+a=d3e3489460ffdba7c2 ; b=d56e1a938821507aa6e6aa
 c=$a$b ; echo "${c},${d}" >> token.txt
-a=42e1675cae214c05ce384 ; b=39838a0cabba85acf70
+a=152cfba49d2ac2f462 ; b=2f9b0da2d247bb23b7136a
 c=$a$b ; echo "${c},${d}" >> token.txt
-a=837c4b800eca1fc8dd95c ; b=1b0e5542378cefc692d
+a=902cce14b8c5422beb ; b=569d231ec0fcdf55b7ce89
 c=$a$b ; echo "${c},${d}" >> token.txt
-a=004ccd5cb1eaca76249b4 ; b=7118f5fd8a7bae5deb2
+a=5a959bdf272d3b88a9 ; b=f53c5014a855df6f9d98bf
 c=$a$b ; echo "${c},${d}" >> token.txt
-a=18d5085586c167902850d ; b=99f079f0968f694f6d3
+a=88aff4cce2d0d8c4dd ; b=9fe060ff2b49c4883efef5
 c=$a$b ; echo "${c},${d}" >> token.txt
-a=999c2a32c7c7a55126a41 ; b=436d6ed35f9723c7a74
+a=52dd08e4a83be566d8 ; b=e3731873865bc7028cbbc1
 c=$a$b ; echo "${c},${d}" >> token.txt
-a=fc477b5e84a05ad0e4d40 ; b=446ebbf6d74a6a08f46
+a=fc477b5e84a05ad0e4 ; b=d40446ebbf6d74a6a08f46
 c=$a$b ; echo "${c},${d}" >> token.txt
-a=ed85179d2da33d0c03ac0 ; b=5714fcd2046da0314c5
+a=ed85179d2da33d0c03 ; b=ac05714fcd2046da0314c5
 c=$a$b ; echo "${c},${d}" >> token.txt
-a=878d4881c59d1c3c42bd3 ; b=7a4e1d7019928912379
+a=d5fdcd4f5cb64b9d2d ; b=20a0587754d6143df30b00
 c=$a$b ; echo "${c},${d}" >> token.txt
-a=50186d96a7e62352eb569 ; b=6e05c523ac58ab1967b
+a=50186d96a7e62352eb ; b=5696e05c523ac58ab1967b
 c=$a$b ; echo "${c},${d}" >> token.txt
-a=49c862c78b199cb947b8f ; b=a50395fe8deeac83fd7
+a=49c862c78b199cb947 ; b=b8fa50395fe8deeac83fd7
 c=$a$b ; echo "${c},${d}" >> token.txt
-a=89a0b5df1f79f828402c8 ; b=7ca2549ec6670510587
+a=89a0b5df1f79f82840 ; b=2c87ca2549ec6670510587
 c=$a$b ; echo "${c},${d}" >> token.txt
-a=5b2d4669d6417b6ce7d77 ; b=b4f2b897b0fc32a47bd
+a=5b2d4669d6417b6ce7 ; b=d77b4f2b897b0fc32a47bd
 c=$a$b ; echo "${c},${d}" >> token.txt
-a=260febf63c9733806685e ; b=48707bffba671d3dc2b
+a=260febf63c97338066 ; b=85e48707bffba671d3dc2b
 c=$a$b ; echo "${c},${d}" >> token.txt
-a=2aa33a4e3c45c8a242f52 ; b=9294a2d813b7eb0ba81
+a=2aa33a4e3c45c8a242 ; b=f529294a2d813b7eb0ba81
 c=$a$b ; echo "${c},${d}" >> token.txt
-a=8ba686714ae1e1d2584ad ; b=d9bbe9fdae9bfb7ae98
+a=8ba686714ae1e1d258 ; b=4add9bbe9fdae9bfb7ae98
 c=$a$b ; echo "${c},${d}" >> token.txt
-a=fae7c7ffbf7f8e91ea2e4 ; b=f99ad4bb3f2c614a7a6
+a=fae7c7ffbf7f8e91ea ; b=2e4f99ad4bb3f2c614a7a6
 c=$a$b ; echo "${c},${d}" >> token.txt
-a=f560b2bed34d7bc0bb5ab ; b=14a9b96f35e0e7a0c09
+a=f560b2bed34d7bc0bb ; b=5ab14a9b96f35e0e7a0c09
 c=$a$b ; echo "${c},${d}" >> token.txt
-a=03161db4d5639f1cf2233 ; b=92d6713c16764c5ef61
+a=03161db4d5639f1cf2 ; b=23392d6713c16764c5ef61
 c=$a$b ; echo "${c},${d}" >> token.txt
-a=99ced3c88c5f4cc9334be ; b=c52800e843ff2df7673
+a=99ced3c88c5f4cc933 ; b=4bec52800e843ff2df7673
 c=$a$b ; echo "${c},${d}" >> token.txt
-a=6f90ab74ae49e4d685c5f ; b=982dc11cd4e97009388
+a=6f90ab74ae49e4d685 ; b=c5f982dc11cd4e97009388
 c=$a$b ; echo "${c},${d}" >> token.txt
-a=5d2428c447c997e114930 ; b=f848aff2625a8e63cc1
+a=5d2428c447c997e114 ; b=930f848aff2625a8e63cc1
 c=$a$b ; echo "${c},${d}" >> token.txt
-a=375176c5146e0d78f1b51 ; b=64d764e8cbfd80372b4
+a=375176c5146e0d78f1 ; b=b5164d764e8cbfd80372b4
 c=$a$b ; echo "${c},${d}" >> token.txt
-a=c1a8544316d790385890c ; b=15fe9c50fca4949b6c0
+a=c1a8544316d7903858 ; b=90c15fe9c50fca4949b6c0
 c=$a$b ; echo "${c},${d}" >> token.txt
-a=45a5d6c72acd5939aadeb ; b=d185859f428c082cd84
+a=4b2ccdd6c937e0ba09 ; b=80aae894447a4eb269cc02
 c=$a$b ; echo "${c},${d}" >> token.txt
-a=30ff8844359961f4fd5fe ; b=a8c50fa0ada5708d132
+a=fbe5018cc6dbf8ce5d ; b=392cb860aa67fb1f083646
 c=$a$b ; echo "${c},${d}" >> token.txt
-a=b0011c2e04a4e60225da6 ; b=96136e43f0b622a502f
+a=1fd9c213c3cabba06e ; b=c7c7e847bbdbc74430c710
 c=$a$b ; echo "${c},${d}" >> token.txt
-a=e2e866f22bbdb81a920cb ; b=97d23c2e90d6e648f6a
+a=e6f9421397e2d2b61a ; b=aeb17ef54e1fcd79322027
 c=$a$b ; echo "${c},${d}" >> token.txt
-a=38ee2ac98dc66eef65e5a ; b=0360087e416a7d4bec0
+a=87ebcbddd264510b75 ; b=dc425191b3171579a5cccc
 c=$a$b ; echo "${c},${d}" >> token.txt
-a=d9a3ff4c05a16f5f7fddf ; b=a7ab7c144c7fecba642
+a=5ad59632041ddcd00c ; b=74e3e39dab857b2c3afe89
 c=$a$b ; echo "${c},${d}" >> token.txt
-a=2ae718272991d909da89a ; b=3546ca83d4b107e0368
+a=ccf3668b9d6947f820 ; b=2ca8beff54c80c3c5cf2fe
 c=$a$b ; echo "${c},${d}" >> token.txt
-a=1493b0570b704ab57e3bd ; b=3686e454afd4795316f
+a=f2d1b92d1bb0dcb347 ; b=6bbf290becda8cd46e2893
 c=$a$b ; echo "${c},${d}" >> token.txt
-a=d833b67cef67b7f2edbe6 ; b=2e211f9ed0543353d10
+a=c8abc643b976337b49 ; b=86a28a40252f35ecf62486
 c=$a$b ; echo "${c},${d}" >> token.txt
-a=b3ef92df69b43d8cdc393 ; b=53023a4938a3d7b5a0e
+a=4826b97c2cc953a768 ; b=bbe2ce3189681abf05f48c
 c=$a$b ; echo "${c},${d}" >> token.txt
-a=0b4494c0c2f0d415c149a ; b=0b20f607ceaad22da57
+a=a87db280ddccd672c2 ; b=3ab5dfa80eb28ce014ad7c
 c=$a$b ; echo "${c},${d}" >> token.txt
-a=e7e201b8f12f96a919f38 ; b=56264b95a779d4a308f
+a=03be2b42f7e24c6af8 ; b=c54f75a3c39899c490e8d5
 c=$a$b ; echo "${c},${d}" >> token.txt
-a=e8d21bdc91cf2bc8e94b3 ; b=0926c9c6940d2611afd
+a=e610d9053392eb8b90 ; b=20ea9ba9de96b257bce947
 c=$a$b ; echo "${c},${d}" >> token.txt
-a=b20b8d54e7a19521a343f ; b=62a69761a18809efe8c
+a=0555d8a2afb08faf86 ; b=32e3d5a2b7bf417e9a3047
 c=$a$b ; echo "${c},${d}" >> token.txt
-a=6da4eb4d81557c7d7378e ; b=9b9de72bbf2bd7be82f
+a=3f49ef72b9e20b20fc ; b=08780b983c0a5f4d00607d
 c=$a$b ; echo "${c},${d}" >> token.txt
-a=a955b7f4a6bdb8d08263c ; b=903b3e11f27148dbef3
+a=b288752ed00112b930 ; b=f3ada22444090152b94398
 c=$a$b ; echo "${c},${d}" >> token.txt
-a=818fafe712094fe512b5a ; b=304de6e59545863bd27
+a=96edd64fa8db7bccef ; b=4ad1a506934018716610fe
 c=$a$b ; echo "${c},${d}" >> token.txt
-a=790ed03ff1e972c8b4316 ; b=b6302fb6e5fcbf284e1
+a=04db40d85596894855 ; b=74a4b644dfebd3eb3f3cab
 c=$a$b ; echo "${c},${d}" >> token.txt
-a=035f45e71e3b8cf53202f ; b=00506ddbff8a7d7eda1
+a=7579b0931f23dcc2b8 ; b=a8615fd18ff92e2eef8ee0
 c=$a$b ; echo "${c},${d}" >> token.txt
-a=e27159ae9721247e6ff35 ; b=78dfde3461c5ae1f671
+a=bb86ea94f0933d1c42 ; b=1c4bc36a7a70fb10c78bc1
 c=$a$b ; echo "${c},${d}" >> token.txt
-a=ac50f8e76e5c7a72384fb ; b=04ea850167a6aeff36c
+a=e4db66ded7aeb37f4a ; b=f2ac71886f45f1bd470b47
 c=$a$b ; echo "${c},${d}" >> token.txt
-a=4ea633c77bc7a32858c27 ; b=abd2b46988e4f30da32
+a=0f61c8a7a38370cd9f ; b=dc71a37968ab1e0f6c83de
 c=$a$b ; echo "${c},${d}" >> token.txt
-a=0d1e79c0c5fa762c39d90 ; b=80587f5c195998ed0b3
+a=1d15ac99f6a1372217 ; b=89a4d300ae4bd0d95dc217
 c=$a$b ; echo "${c},${d}" >> token.txt
-a=66f315cde9aae1b0d2add ; b=a6fc87ece91986befec
+a=a6cdc74c94fd1d6c9b ; b=0926c624698219b97c55f6
 c=$a$b ; echo "${c},${d}" >> token.txt
-a=9dee1a600f8bd7810ebcc ; b=bcf134ba905dcdfc481
+a=a7eaf139f952e60f04 ; b=bfc92879bcaf5ee56a3404
 c=$a$b ; echo "${c},${d}" >> token.txt
-a=035d7e619fd0bee78dbbe ; b=72442e45656c0933ff2
+a=b90d25fcab1661564d ; b=c203f8c74ae3a90a10f621
 c=$a$b ; echo "${c},${d}" >> token.txt
-a=9b89b37ee61e913c961ab ; b=2a8e4da9e8956c97062
+a=d3e3489460ffdba7c2 ; b=d56e1a938821507aa6e6aa
 c=$a$b ; echo "${c},${d}" >> token.txt
-a=42e1675cae214c05ce384 ; b=39838a0cabba85acf70
+a=152cfba49d2ac2f462 ; b=2f9b0da2d247bb23b7136a
 c=$a$b ; echo "${c},${d}" >> token.txt
-a=837c4b800eca1fc8dd95c ; b=1b0e5542378cefc692d
+a=902cce14b8c5422beb ; b=569d231ec0fcdf55b7ce89
 c=$a$b ; echo "${c},${d}" >> token.txt
-a=004ccd5cb1eaca76249b4 ; b=7118f5fd8a7bae5deb2
+a=5a959bdf272d3b88a9 ; b=f53c5014a855df6f9d98bf
 c=$a$b ; echo "${c},${d}" >> token.txt
-a=18d5085586c167902850d ; b=99f079f0968f694f6d3
+a=88aff4cce2d0d8c4dd ; b=9fe060ff2b49c4883efef5
 c=$a$b ; echo "${c},${d}" >> token.txt
-a=999c2a32c7c7a55126a41 ; b=436d6ed35f9723c7a74
+a=52dd08e4a83be566d8 ; b=e3731873865bc7028cbbc1
 c=$a$b ; echo "${c},${d}" >> token.txt
-a=fc477b5e84a05ad0e4d40 ; b=446ebbf6d74a6a08f46
+a=fc477b5e84a05ad0e4 ; b=d40446ebbf6d74a6a08f46
 c=$a$b ; echo "${c},${d}" >> token.txt
-a=ed85179d2da33d0c03ac0 ; b=5714fcd2046da0314c5
+a=ed85179d2da33d0c03 ; b=ac05714fcd2046da0314c5
 c=$a$b ; echo "${c},${d}" >> token.txt
-a=878d4881c59d1c3c42bd3 ; b=7a4e1d7019928912379
+a=d5fdcd4f5cb64b9d2d ; b=20a0587754d6143df30b00
 c=$a$b ; echo "${c},${d}" >> token.txt
-a=50186d96a7e62352eb569 ; b=6e05c523ac58ab1967b
+a=50186d96a7e62352eb ; b=5696e05c523ac58ab1967b
 c=$a$b ; echo "${c},${d}" >> token.txt
-a=49c862c78b199cb947b8f ; b=a50395fe8deeac83fd7
+a=49c862c78b199cb947 ; b=b8fa50395fe8deeac83fd7
 c=$a$b ; echo "${c},${d}" >> token.txt
-a=89a0b5df1f79f828402c8 ; b=7ca2549ec6670510587
+a=89a0b5df1f79f82840 ; b=2c87ca2549ec6670510587
 c=$a$b ; echo "${c},${d}" >> token.txt
-a=5b2d4669d6417b6ce7d77 ; b=b4f2b897b0fc32a47bd
+a=5b2d4669d6417b6ce7 ; b=d77b4f2b897b0fc32a47bd
 c=$a$b ; echo "${c},${d}" >> token.txt
-a=260febf63c9733806685e ; b=48707bffba671d3dc2b
+a=260febf63c97338066 ; b=85e48707bffba671d3dc2b
 c=$a$b ; echo "${c},${d}" >> token.txt
-a=2aa33a4e3c45c8a242f52 ; b=9294a2d813b7eb0ba81
+a=2aa33a4e3c45c8a242 ; b=f529294a2d813b7eb0ba81
 c=$a$b ; echo "${c},${d}" >> token.txt
-a=8ba686714ae1e1d2584ad ; b=d9bbe9fdae9bfb7ae98
+a=8ba686714ae1e1d258 ; b=4add9bbe9fdae9bfb7ae98
 c=$a$b ; echo "${c},${d}" >> token.txt
-a=fae7c7ffbf7f8e91ea2e4 ; b=f99ad4bb3f2c614a7a6
+a=fae7c7ffbf7f8e91ea ; b=2e4f99ad4bb3f2c614a7a6
 c=$a$b ; echo "${c},${d}" >> token.txt
-a=f560b2bed34d7bc0bb5ab ; b=14a9b96f35e0e7a0c09
+a=f560b2bed34d7bc0bb ; b=5ab14a9b96f35e0e7a0c09
 c=$a$b ; echo "${c},${d}" >> token.txt
-a=03161db4d5639f1cf2233 ; b=92d6713c16764c5ef61
+a=03161db4d5639f1cf2 ; b=23392d6713c16764c5ef61
 c=$a$b ; echo "${c},${d}" >> token.txt
-a=99ced3c88c5f4cc9334be ; b=c52800e843ff2df7673
+a=99ced3c88c5f4cc933 ; b=4bec52800e843ff2df7673
 c=$a$b ; echo "${c},${d}" >> token.txt
-a=6f90ab74ae49e4d685c5f ; b=982dc11cd4e97009388
+a=6f90ab74ae49e4d685 ; b=c5f982dc11cd4e97009388
 c=$a$b ; echo "${c},${d}" >> token.txt
-a=5d2428c447c997e114930 ; b=f848aff2625a8e63cc1
+a=5d2428c447c997e114 ; b=930f848aff2625a8e63cc1
 c=$a$b ; echo "${c},${d}" >> token.txt
-a=375176c5146e0d78f1b51 ; b=64d764e8cbfd80372b4
+a=375176c5146e0d78f1 ; b=b5164d764e8cbfd80372b4
 c=$a$b ; echo "${c},${d}" >> token.txt
-a=c1a8544316d790385890c ; b=15fe9c50fca4949b6c0
+a=c1a8544316d7903858 ; b=90c15fe9c50fca4949b6c0
 c=$a$b ; echo "${c},${d}" >> token.txt
-a=45a5d6c72acd5939aadeb ; b=d185859f428c082cd84
+a=4b2ccdd6c937e0ba09 ; b=80aae894447a4eb269cc02
 c=$a$b ; echo "${c},${d}" >> token.txt
-a=30ff8844359961f4fd5fe ; b=a8c50fa0ada5708d132
+a=fbe5018cc6dbf8ce5d ; b=392cb860aa67fb1f083646
 c=$a$b ; echo "${c},${d}" >> token.txt
-a=b0011c2e04a4e60225da6 ; b=96136e43f0b622a502f
+a=1fd9c213c3cabba06e ; b=c7c7e847bbdbc74430c710
 c=$a$b ; echo "${c},${d}" >> token.txt
-a=e2e866f22bbdb81a920cb ; b=97d23c2e90d6e648f6a
+a=e6f9421397e2d2b61a ; b=aeb17ef54e1fcd79322027
 c=$a$b ; echo "${c},${d}" >> token.txt
-a=38ee2ac98dc66eef65e5a ; b=0360087e416a7d4bec0
+a=87ebcbddd264510b75 ; b=dc425191b3171579a5cccc
 c=$a$b ; echo "${c},${d}" >> token.txt
-a=d9a3ff4c05a16f5f7fddf ; b=a7ab7c144c7fecba642
+a=5ad59632041ddcd00c ; b=74e3e39dab857b2c3afe89
 c=$a$b ; echo "${c},${d}" >> token.txt
-a=2ae718272991d909da89a ; b=3546ca83d4b107e0368
+a=ccf3668b9d6947f820 ; b=2ca8beff54c80c3c5cf2fe
 c=$a$b ; echo "${c},${d}" >> token.txt
-a=1493b0570b704ab57e3bd ; b=3686e454afd4795316f
+a=f2d1b92d1bb0dcb347 ; b=6bbf290becda8cd46e2893
 c=$a$b ; echo "${c},${d}" >> token.txt
-a=d833b67cef67b7f2edbe6 ; b=2e211f9ed0543353d10
+a=c8abc643b976337b49 ; b=86a28a40252f35ecf62486
 c=$a$b ; echo "${c},${d}" >> token.txt
-a=b3ef92df69b43d8cdc393 ; b=53023a4938a3d7b5a0e
+a=4826b97c2cc953a768 ; b=bbe2ce3189681abf05f48c
 c=$a$b ; echo "${c},${d}" >> token.txt
-a=0b4494c0c2f0d415c149a ; b=0b20f607ceaad22da57
+a=a87db280ddccd672c2 ; b=3ab5dfa80eb28ce014ad7c
 c=$a$b ; echo "${c},${d}" >> token.txt
-a=e7e201b8f12f96a919f38 ; b=56264b95a779d4a308f
+a=03be2b42f7e24c6af8 ; b=c54f75a3c39899c490e8d5
 c=$a$b ; echo "${c},${d}" >> token.txt
 
 #rule
@@ -531,7 +481,7 @@ done
 done
 rm 2.txt
 
-cat exe.sh | parallel --jobs 5 --delay 1
+cat exe.sh | parallel --jobs 10  --delay 1
 s=hooks.sl ; c=ack.com/ser ; k=vices/TM26L9 ; sck=$s$c$k ; curl -X POST -H "Content-type:application/json" --data '{"text":"GSIL ; rm -r /root/.gsil"}' https://${sck}ZEE/BM78UTLGH/GBt3k5B25BqAyc5EDzYPDdhg
 rm exe.sh
 rm dir_* -r
