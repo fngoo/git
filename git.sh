@@ -468,7 +468,7 @@ echo "cp -r /root/script/git/GSIL/* dir_$i" >> dir_$i/${i}.sh
 echo "cd dir_$i" >> dir_$i/${i}.sh
 echo "sed -e \"s/your/${token}/g\" config.gsil > 1.txt ; mv 1.txt config.gsil" >> dir_$i/${i}.sh
 echo "sed -e \"s/num/${i}/g\" rules.gsil > 1.txt ; mv 1.txt rules.gsil" >> dir_$i/${i}.sh
-echo "sed -e \"s/dot/${dot}/g\" rules.gsil > 1.txt ; mv 1.txt rules.gsil" >> dir_$i/${i}.sh
+echo "sed -e \"s/dotasd/${dot}/g\" rules.gsil > 1.txt ; mv 1.txt rules.gsil" >> dir_$i/${i}.sh
 echo "sed -e \"s/testasd/${rule}/g\" rules.gsil > 1.txt ; mv 1.txt rules.gsil" >> dir_$i/${i}.sh
 echo "python3 gsil.py ${i}" >> dir_$i/${i}.sh
 echo "cd ../ ; rm -r dir_$i" >> dir_$i/${i}.sh
