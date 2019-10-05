@@ -6,9 +6,11 @@ do
 echo "\"$line\"" > keyword.txt
 python github.py
 grep -o -P "(?<=http).*" github.txt >> $output/github.txt
-sed "s,s://,https://,g" $output/github.txt >> $output/github1.txt ; mv $output/github1.txt $output/github.txt
 > github.txt
 done
+sed "s,s://,https://,g" $output/github.txt >> $output/github1.txt ; mv $output/github1.txt $output/github.txt
+
+
 
 #Eyeiwtness
 cd /root/script/4_getjs/EyeWitness
