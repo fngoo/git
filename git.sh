@@ -315,9 +315,6 @@
 
 
 
-#创建目录
-
-i=1
 
 #规则循环
 cd /root/script/git/github_dis
