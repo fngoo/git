@@ -16,7 +16,7 @@ sed "s,s://,https://,g" $output/github.txt >> $output/github1.txt ; mv $output/g
 > github.txt
 #Eyeiwtness
 cd /root/script/4_getjs/EyeWitness
-python EyeWitness.py -f $output/github.txt --web --no-prompt -d $output/git_Github
+python EyeWitness.py -f $output/github.txt --timeout 7 --web --no-prompt -d $output/git_Github
 
 cd /root/script/git/github_dis
 for line in `cat $output/github.txt`
