@@ -29,8 +29,22 @@ sort -u 11.txt -o 11.txt
 for line in `cat 11.txt`
 do
 
+echo ' ' >> $output/git_hog.txt
+echo ' ' >> $output/git_hog.txt
+echo ' ' >> $output/git_hog.txt
+echo ' ' >> $output/git_hog.txt
+echo ' ' >> $output/git_hog.txt
+echo ' ' >> $output/git_hog.txt
+echo "${line}" >> $output/git_hog.txt
+echo ' ' >> $output/git_hog.txt
+
 trufflehog ${line} --regex --entropy=False >> $output/git_hog.txt
-echo '``````````````````````````````````````````````````' >> $output/git_hog.txt
+echo ' ' >> $output/git_hog.txt
+echo ' ' >> $output/git_hog.txt
+echo ' ' >> $output/git_hog.txt
+echo ' ' >> $output/git_hog.txt
+echo ' ' >> $output/git_hog.txt
+echo ' ' >> $output/git_hog.txt
 
 done
 
