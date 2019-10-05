@@ -309,13 +309,6 @@
 
 
 
-
-
-
-
-
-
-
 #规则循环
 cd /root/script/git/github_dis
 
@@ -335,14 +328,22 @@ grep -oP "http.*" github.txt >> $output/github.txt
 cd /root/script/4_getjs/EyeWitness
 python EyeWitness.py -f $output/github.txt --web -d $output/git_Github
 
-sort -u $output/github.txt -o $output/github.txt
 for line in `cat $output/github.txt`
 do
-
 line=`echo ${line} | grep -o -P ".*(?=blob)"`
+echo $line >> 11.txt
+done
+sort -u 11.txt -o 11.txt
+
+for line in `cat 11.txt`
+do
+
 trufflehog ${line} --regex >> $output/git_hog.txt
+echo '``````````````````````````````````````````````````' >> $output/git_hog.txt
 
 done
+
+rm 11.txt
 
 
 
