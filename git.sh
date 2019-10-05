@@ -335,7 +335,7 @@ grep -oP "http.*" github.txt >> $output/github.txt
 cd /root/script/4_getjs/EyeWitness
 python EyeWitness.py -f $output/github.txt --web -d $output/git_Github
 
-
+sort -u $output/github.txt -o $output/github.txt
 for line in `cat $output/github.txt`
 do
 
