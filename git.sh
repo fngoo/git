@@ -17,6 +17,7 @@ grep -o -P "(?<=http).*" github.txt >> $output/github.txt
 cd /root/script/4_getjs/EyeWitness
 python EyeWitness.py -f $output/github.txt --web --no-prompt -d $output/git_Github
 
+cd /root/script/git/github_dis
 for line in `cat $output/github.txt`
 do
 line=`echo ${line} | grep -o -P ".*(?=blob)"`
