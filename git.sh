@@ -11,7 +11,7 @@ done
 python github.py
 > keyword.txt
 
-grep -oP "http.*" github.txt >> $output/github.txt
+grep -o -P "(?<=http).*" github.txt >> $output/github.txt
 > github.txt
 #Eyeiwtness
 cd /root/script/4_getjs/EyeWitness
