@@ -13,8 +13,8 @@ sed "s,s://,https://,g" $output/github.txt >> $output/github1.txt ; mv $output/g
 
 
 #Eyeiwtness
-cd /root/script/4_getjs/EyeWitness
-python EyeWitness.py -f $output/github.txt --threads 1 --jitter 3 --web --no-prompt -d $output/git_Github
+#cd /root/script/4_getjs/EyeWitness
+#python EyeWitness.py -f $output/github.txt --threads 1 --jitter 3 --web --no-prompt -d $output/git_Github
 
 cd /root/script/git/github_dis
 for line in `cat $output/github.txt`
