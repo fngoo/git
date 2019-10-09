@@ -51,7 +51,7 @@ then
 > $output/git_hog.txt
 fi
 
-cat $output/git_hog.txt >> $output/git_trufflehog.txt
+cat $output/git_hog.txt >> $output/git_trufflehog_usedate.txt
 
 done
 
