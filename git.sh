@@ -45,6 +45,14 @@ echo ' ' >> $output/git_hog.txt
 echo ' ' >> $output/git_hog.txt
 echo ' ' >> $output/git_hog.txt
 
+line=`cat $output/git_hog.txt | wc -l`
+if [ $line -eq 14 ]
+then
+> $output/git_hog.txt
+fi
+
+cat $output/git_hog.txt >> $output/git_trufflehog.txt
+
 done
 
 rm 11.txt
