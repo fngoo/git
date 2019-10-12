@@ -51,7 +51,8 @@ then
 > $output/git_hog.txt
 fi
 
-cat $output/git_hog.txt >> $output/0_git_trufflehog_usedate.txt
+sed "s,Filepath: ,${line},g" $output/git_hog.txt >> $output/0_git_trufflehog_usedate.txt
+#cat $output/git_hog.txt >> $output/0_git_trufflehog_usedate.txt
 rm $output/git_hog.txt
 
 done
