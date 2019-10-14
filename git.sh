@@ -45,8 +45,8 @@ echo ' ' >> $output/git_hog.txt
 echo ' ' >> $output/git_hog.txt
 echo ' ' >> $output/git_hog.txt
 
-line=`cat $output/git_hog.txt | wc -l`
-if [ $line -eq 14 ]
+num=`cat $output/git_hog.txt | wc -l`
+if [ $num -eq 14 ]
 then
 > $output/git_hog.txt
 fi
