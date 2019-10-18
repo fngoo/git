@@ -48,7 +48,7 @@ echo ' ' >> $output/git_hog.txt
 num=`cat $output/git_hog.txt | wc -l`
 if [ $num -eq 14 ]
 then
-> $output/git_hog.txt
+rm $output/git_hog.txt
 fi
 
 sed "s,Filepath: ,${line},g" $output/git_hog.txt >> $output/0_git_trufflehog_usedate.txt
