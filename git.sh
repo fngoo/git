@@ -58,6 +58,8 @@ rm $output/git_hog.txt
 done
 
 rm 11.txt
+rm $output/git_hog.txt
+
 
 
 
