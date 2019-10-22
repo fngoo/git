@@ -69,3 +69,4 @@ rm $output/git_hog.txt
 
 
 ls
+date "+%Y-%m-%d_%H:%M:%S" >> /root/date.txt ; echo 'git' >> /root/date.txt
