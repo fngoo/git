@@ -12,10 +12,6 @@ sed "s,s://,https://,g" $output/github.txt >> $output/github1.txt ; mv $output/g
 
 
 
-#Eyeiwtness
-#cd /root/script/4_getjs/EyeWitness
-#python EyeWitness.py -f $output/github.txt --threads 1 --jitter 3 --web --no-prompt -d $output/git_Github
-
 cd /root/script/git/github_dis
 > 11.txt
 for line in `cat $output/github.txt`
@@ -51,33 +47,10 @@ num=`cat $output/git_hog.txt | wc -l`
 if [ $num -eq 14 ]
 then
 rm $output/git_hog.txt
-fi
-
-#filter=`grep localhost $output/git_hog.txt`
-#if [ "$filter" != "" ]
-#then
+else
 sed "s,localhost,123123123123,g" $output/git_hog.txt >> $output/git_hog1.txt ; mv $output/git_hog1.txt $output/git_hog.txt
-#fi
-
-#filter=`grep pass $output/git_hog.txt`
-#if [ "$filter" != "" ]
-#then
-#sed "s,pass,123123123123,g" $output/git_hog.txt >> $output/git_hog1.txt ; mv $output/git_hog1.txt $output/git_hog.txt
-#fi
-
-#filter=`grep example $output/git_hog.txt`
-#if [ "$filter" != "" ]
-#then
 sed "s,example,123123123123,g" $output/git_hog.txt >> $output/git_hog1.txt ; mv $output/git_hog1.txt $output/git_hog.txt
-sed "s,user,123123123123,g" $output/git_hog.txt >> $output/git_hog1.txt ; mv $output/git_hog1.txt $output/git_hog.txt
 
-#fi
-
-#filter=`grep pwd $output/git_hog.txt`
-#if [ "$filter" != "" ]
-#then
-sed "s,pwd,123123123123,g" $output/git_hog.txt >> $output/git_hog1.txt ; mv $output/git_hog1.txt $output/git_hog.txt
-#fi
 
 awk=`grep 123123123123 -n $output/git_hog.txt | awk -F: '{print $1}'`
 echo $awk >> a.txt
@@ -87,11 +60,10 @@ then
 for delete in $awk
 do
 num=$((delete-8))
-sed -i "${num},${delete}d" $output/git_hog.txt >> $output/git_hog1.txt ; mv $output/git_hog1.txt $output/git_hog.txt
+sed -i "${num},${delete}d" $output/git_hog.txt ; cat $output/git_hog.txt >> $output/git_hog1.txt ; mv $output/git_hog1.txt $output/git_hog.txt
 done
 fi
 rm a.txt
-#sed "s,Filepath: ,${line},g" $output/git_hog.txt >> $output/0_git_trufflehog_usedate.txt
 num=`cat $output/git_hog.txt | wc -l`
 if [ "$num" != "6" ]
 then
@@ -99,7 +71,7 @@ cat $output/git_hog.txt >> $output/0_git_trufflehog_usedate.txt
 fi
 rm $output/git_hog.txt
 rm $output/git_hog.txt
-
+fi
 done
 
 rm 11.txt
