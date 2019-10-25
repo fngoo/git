@@ -62,27 +62,22 @@ fi
 done
 
 
-awk=`grep 123123123123 -n $output/0_git_trufflehog_usedate.txt | awk -F: '{print $1}'`
-echo $awk >> a.txt
+grep 123123123123 -n $output/0_git_trufflehog_usedate.txt | grep -oP ".*?(?=\:)" > a.txt
+
 
 if [ -s a.txt ]
 then
-for delete in $awk
+for delete in `cat a.txt`
 do
 num=$((delete-8))
-sed -i "${num},${delete}d" $output/0_git_trufflehog_usedate.txt ; cat $output/0_git_trufflehog_usedate.txt >> $output/git_hog1.txt ; mv $output/git_hog1.txt $output/0_git_trufflehog_usedate.txt
+sed -i "${num},${delete}d" $output/0_git_trufflehog_usedate.txt ; cat $output/0_git_trufflehog_usedate.txt >> $output/git_hog1.txt ; mv $output/git_hog1.txt $output/0_git_trufflehog_usedate.txt ; wc -l $output/0_git_trufflehog_usedate.txt
 done
 fi
 rm a.txt
 
 
 rm 11.txt
-rm $output/git_hog.txt
-rm $output/git_hog.txt
 
-rm $output/git_hog.txt
-
-rm $output/git_hog.txt
 
 
 
