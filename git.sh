@@ -52,9 +52,17 @@ sed "s,localhost,123123123123,g" $output/git_hog.txt >> $output/git_hog1.txt ; m
 sed "s,example,123123123123,g" $output/git_hog.txt >> $output/git_hog1.txt ; mv $output/git_hog1.txt $output/git_hog.txt
 sed "s,user:password@,123123123123,g" $output/git_hog.txt >> $output/git_hog1.txt ; mv $output/git_hog1.txt $output/git_hog.txt
 sed "s,user:pwd@,123123123123,g" $output/git_hog.txt >> $output/git_hog1.txt ; mv $output/git_hog1.txt $output/git_hog.txt
+num=`cat $output/git_hog.txt | wc -l`
+if [ "$num" != "6" ]
+then
+cat $output/git_hog.txt >> $output/0_git_trufflehog_usedate.txt
+fi
+rm $output/git_hog.txt
+fi
+done
 
 
-awk=`grep 123123123123 -n $output/git_hog.txt | awk -F: '{print $1}'`
+awk=`grep 123123123123 -n $output/0_git_trufflehog_usedate.txt | awk -F: '{print $1}'`
 echo $awk >> a.txt
 
 if [ -s a.txt ]
@@ -62,19 +70,11 @@ then
 for delete in $awk
 do
 num=$((delete-8))
-sed -i "${num},${delete}d" $output/git_hog.txt ; cat $output/git_hog.txt >> $output/git_hog1.txt ; mv $output/git_hog1.txt $output/git_hog.txt
+sed -i "${num},${delete}d" $output/0_git_trufflehog_usedate.txt ; cat $output/0_git_trufflehog_usedate.txt >> $output/git_hog1.txt ; mv $output/git_hog1.txt $output/0_git_trufflehog_usedate.txt
 done
 fi
 rm a.txt
-num=`cat $output/git_hog.txt | wc -l`
-if [ "$num" != "6" ]
-then
-cat $output/git_hog.txt >> $output/0_git_trufflehog_usedate.txt
-fi
-rm $output/git_hog.txt
-rm $output/git_hog.txt
-fi
-done
+
 
 rm 11.txt
 rm $output/git_hog.txt
