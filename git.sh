@@ -53,6 +53,30 @@ then
 rm $output/git_hog.txt
 fi
 
+filter=`grep localhost $output/git_hog.txt`
+if [ "$filter" != "" ]
+then
+rm $output/git_hog.txt
+fi
+
+filter=`grep pass $output/git_hog.txt`
+if [ "$filter" != "" ]
+then
+rm $output/git_hog.txt
+fi
+
+filter=`grep example $output/git_hog.txt`
+if [ "$filter" != "" ]
+then
+rm $output/git_hog.txt
+fi
+
+filter=`grep pwd $output/git_hog.txt`
+if [ "$filter" != "" ]
+then
+rm $output/git_hog.txt
+fi
+
 #sed "s,Filepath: ,${line},g" $output/git_hog.txt >> $output/0_git_trufflehog_usedate.txt
 cat $output/git_hog.txt >> $output/0_git_trufflehog_usedate.txt
 rm $output/git_hog.txt
@@ -72,3 +96,5 @@ rm $output/git_hog.txt
 
 ls
 date "+%Y-%m-%d_%H:%M:%S" >> /root/date.txt ; echo 'git' >> /root/date.txt
+rm $output/git_hog.txt
+
