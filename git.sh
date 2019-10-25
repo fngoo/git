@@ -77,6 +77,12 @@ then
 sed "s,$filter,123123123123,g" $output/git_hog.txt >> $output/git_hog1.txt ; mv $output/git_hog1.txt $output/git_hog.txt
 fi
 
+awk=`grep 123123123123 -n $output/git_hog.txt | awk -F: '{print $1}'`
+for delete in $awk
+do
+num=$((delete-8))
+sed -i '${num},${delete}d' $output/git_hog.txt >> $output/git_hog1.txt ; mv $output/git_hog1.txt $output/git_hog.txt
+
 #sed "s,Filepath: ,${line},g" $output/git_hog.txt >> $output/0_git_trufflehog_usedate.txt
 cat $output/git_hog.txt >> $output/0_git_trufflehog_usedate.txt
 rm $output/git_hog.txt
