@@ -69,6 +69,8 @@ sed "s,localhost,123123123123,g" $output/git_hog.txt >> $output/git_hog1.txt ; m
 #if [ "$filter" != "" ]
 #then
 sed "s,example,123123123123,g" $output/git_hog.txt >> $output/git_hog1.txt ; mv $output/git_hog1.txt $output/git_hog.txt
+sed "s,user,123123123123,g" $output/git_hog.txt >> $output/git_hog1.txt ; mv $output/git_hog1.txt $output/git_hog.txt
+
 #fi
 
 #filter=`grep pwd $output/git_hog.txt`
