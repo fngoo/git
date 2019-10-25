@@ -59,11 +59,11 @@ then
 sed "s,localhost,123123123123,g" $output/git_hog.txt >> $output/git_hog1.txt ; mv $output/git_hog1.txt $output/git_hog.txt
 fi
 
-filter=`grep pass $output/git_hog.txt`
-if [ "$filter" != "" ]
-then
-sed "s,pass,123123123123,g" $output/git_hog.txt >> $output/git_hog1.txt ; mv $output/git_hog1.txt $output/git_hog.txt
-fi
+#filter=`grep pass $output/git_hog.txt`
+#if [ "$filter" != "" ]
+#then
+#sed "s,pass,123123123123,g" $output/git_hog.txt >> $output/git_hog1.txt ; mv $output/git_hog1.txt $output/git_hog.txt
+#fi
 
 filter=`grep example $output/git_hog.txt`
 if [ "$filter" != "" ]
