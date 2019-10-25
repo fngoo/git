@@ -53,11 +53,11 @@ then
 rm $output/git_hog.txt
 fi
 
-filter=`grep localhost $output/git_hog.txt`
-if [ "$filter" != "" ]
-then
+#filter=`grep localhost $output/git_hog.txt`
+#if [ "$filter" != "" ]
+#then
 sed "s,localhost,123123123123,g" $output/git_hog.txt >> $output/git_hog1.txt ; mv $output/git_hog1.txt $output/git_hog.txt
-fi
+#fi
 
 #filter=`grep pass $output/git_hog.txt`
 #if [ "$filter" != "" ]
@@ -65,17 +65,17 @@ fi
 #sed "s,pass,123123123123,g" $output/git_hog.txt >> $output/git_hog1.txt ; mv $output/git_hog1.txt $output/git_hog.txt
 #fi
 
-filter=`grep example $output/git_hog.txt`
-if [ "$filter" != "" ]
-then
+#filter=`grep example $output/git_hog.txt`
+#if [ "$filter" != "" ]
+#then
 sed "s,example,123123123123,g" $output/git_hog.txt >> $output/git_hog1.txt ; mv $output/git_hog1.txt $output/git_hog.txt
-fi
+#fi
 
-filter=`grep pwd $output/git_hog.txt`
-if [ "$filter" != "" ]
-then
+#filter=`grep pwd $output/git_hog.txt`
+#if [ "$filter" != "" ]
+#then
 sed "s,pwd,123123123123,g" $output/git_hog.txt >> $output/git_hog1.txt ; mv $output/git_hog1.txt $output/git_hog.txt
-fi
+#fi
 
 awk=`grep 123123123123 -n $output/git_hog.txt | awk -F: '{print $1}'`
 echo $awk >> a.txt
@@ -84,7 +84,7 @@ then
 for delete in $awk
 do
 num=$((delete-8))
-sed -i '${num},${delete}d' $output/git_hog.txt >> $output/git_hog1.txt ; mv $output/git_hog1.txt $output/git_hog.txt
+sed -i "${num},${delete}d" $output/git_hog.txt >> $output/git_hog1.txt ; mv $output/git_hog1.txt $output/git_hog.txt
 done
 fi
 rm a.txt
