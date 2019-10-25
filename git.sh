@@ -56,25 +56,25 @@ fi
 filter=`grep localhost $output/git_hog.txt`
 if [ "$filter" != "" ]
 then
-rm $output/git_hog.txt
+sed "s,$filter,123123123123,g" $output/git_hog.txt >> $output/git_hog1.txt ; mv $output/git_hog1.txt $output/git_hog.txt
 fi
 
 filter=`grep pass $output/git_hog.txt`
 if [ "$filter" != "" ]
 then
-rm $output/git_hog.txt
+sed "s,$filter,123123123123,g" $output/git_hog.txt >> $output/git_hog1.txt ; mv $output/git_hog1.txt $output/git_hog.txt
 fi
 
 filter=`grep example $output/git_hog.txt`
 if [ "$filter" != "" ]
 then
-rm $output/git_hog.txt
+sed "s,$filter,123123123123,g" $output/git_hog.txt >> $output/git_hog1.txt ; mv $output/git_hog1.txt $output/git_hog.txt
 fi
 
 filter=`grep pwd $output/git_hog.txt`
 if [ "$filter" != "" ]
 then
-rm $output/git_hog.txt
+sed "s,$filter,123123123123,g" $output/git_hog.txt >> $output/git_hog1.txt ; mv $output/git_hog1.txt $output/git_hog.txt
 fi
 
 #sed "s,Filepath: ,${line},g" $output/git_hog.txt >> $output/0_git_trufflehog_usedate.txt
