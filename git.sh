@@ -79,6 +79,7 @@ sed "s,pwd,123123123123,g" $output/git_hog.txt >> $output/git_hog1.txt ; mv $out
 
 awk=`grep 123123123123 -n $output/git_hog.txt | awk -F: '{print $1}'`
 echo $awk >> a.txt
+
 if [ -s a.txt ]
 then
 for delete in $awk
@@ -89,7 +90,11 @@ done
 fi
 rm a.txt
 #sed "s,Filepath: ,${line},g" $output/git_hog.txt >> $output/0_git_trufflehog_usedate.txt
+num=`cat $output/git_hog.txt | wc -l`
+if [ "$num" != "6" ]
+then
 cat $output/git_hog.txt >> $output/0_git_trufflehog_usedate.txt
+fi
 rm $output/git_hog.txt
 rm $output/git_hog.txt
 
