@@ -63,7 +63,9 @@ done
 
 
 grep -oPn "123123123123" $output/0_git_trufflehog_usedate.txt | grep -oP ".*?(?=\:)" > a.txt ; sort -u a.txt -o a.txt
-
+while [ -s a.txt ]
+do
+> a.txt ; grep -oPn "123123123123" $output/0_git_trufflehog_usedate.txt | grep -oP ".*?(?=\:)" > a.txt ; sort -u a.txt -o a.txt
 if [ -s a.txt ]
 then
 for delete in `cat a.txt`
@@ -73,9 +75,9 @@ delete=$((delete+1))
 sed -i "${num},${delete}d" $output/0_git_trufflehog_usedate.txt ; cat $output/0_git_trufflehog_usedate.txt >> $output/git_hog1.txt ; mv $output/git_hog1.txt $output/0_git_trufflehog_usedate.txt ; wc -l $output/0_git_trufflehog_usedate.txt
 done
 fi
+done
+done
 rm a.txt
-
-
 rm 11.txt
 
 
