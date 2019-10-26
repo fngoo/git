@@ -5,6 +5,7 @@ for line in `cat $var`
 do
 echo "\"$line\"" > keyword.txt
 python github.py
+echo $var >> $output/github.txt
 grep -o -P "(?<=http).*" github.txt >> $output/github.txt
 > github.txt
 done
