@@ -62,8 +62,7 @@ fi
 done
 
 
-grep 123123123123 -n $output/0_git_trufflehog_usedate.txt | grep -oP ".*?(?=\:)" > a.txt
-
+grep -oPn "123123123123" $output/0_git_trufflehog_usedate.txt | grep -oP ".*?(?=\:)" > a.txt ; sort -u a.txt -o a.txt
 
 if [ -s a.txt ]
 then
