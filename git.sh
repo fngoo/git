@@ -35,7 +35,7 @@ echo ' ' >> $output/git_hog.txt
 echo "${line}" >> $output/git_hog.txt
 echo ' ' >> $output/git_hog.txt
 
-trufflehog ${line} --regex --entropy=False >> $output/git_hog.txt
+trufflehog ${line} --regex --entropy=False --max_depth 20 >> $output/git_hog.txt
 trufflehog --cleanup ${line}
 echo ' ' >> $output/git_hog.txt
 echo ' ' >> $output/git_hog.txt
