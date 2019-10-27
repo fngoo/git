@@ -5,8 +5,11 @@ for line in `cat $var`
 do
 echo "\"$line\"" > keyword.txt
 python github.py
-echo $var >> $output/github.txt
+echo "" >> $output/github.txt
+echo $line >> $output/github.txt
+echo "----------------------" >> $output/github.txt
 grep -o -P "(?<=http).*" github.txt >> $output/github.txt
+echo "" >> $output/github.txt
 > github.txt
 done
 sed "s,s://,https://,g" $output/github.txt >> $output/github1.txt ; mv $output/github1.txt $output/github.txt
