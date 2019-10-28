@@ -24,7 +24,7 @@ grep=`echo $line | grep http`
 if [ "$grep" != "" ]
 then
 year=`curl -L $line | grep -oP "(?<=<relative-time datetime=\").*?(?=-)"`
-if [ "$year" -gt "2017" ]
+if [ "$year" > "2017" ]
 then
 line=`echo ${line} | grep -oP "http.*" | grep -o -P ".*(?=blob)"`
 echo $line >> 11.txt
