@@ -20,7 +20,7 @@ cd /root/script/git/github_dis
 > 11.txt
 for line in `cat $output/github.txt`
 do
-line=`echo ${line} | grep -o -P ".*(?=blob)"`
+line=`echo ${line} | grep -oP "http.*" | grep -o -P ".*(?=blob)"`
 echo $line >> 11.txt
 done
 sort -u 11.txt -o 11.txt
@@ -89,4 +89,3 @@ rm 11.txt
 ls
 date "+%Y-%m-%d_%H:%M:%S" >> /root/date.txt ; echo 'git' >> /root/date.txt
 rm $output/git_hog.txt
-
