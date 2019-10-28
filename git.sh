@@ -17,6 +17,7 @@ sed "s,s://,https://,g" $output/github.txt >> $output/github1.txt ; mv $output/g
 
 
 cd /root/script/git/github_dis
+cat $output/github.txt $output/github321.txt
 > 11.txt
 for line in `cat $output/github.txt`
 do
@@ -29,11 +30,11 @@ then
 line=`echo ${line} | grep -oP "http.*" | grep -o -P ".*(?=blob)"`
 echo $line >> 11.txt
 else
-grep -v "$line" $output/github.txt > $output/0_github_url.txt
+grep -v "$line" $output/github321.txt > $output/0_github_url.txt ; cat $output/0_github_url.txt > $output/github321.txt
 fi
 fi
 done
-sort -u 11.txt -o 11.txt
+sort -u 11.txt -o 11.txt ; rm $output/github321.txt
 
 if [ -s 11.txt ]
 then
