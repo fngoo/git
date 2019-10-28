@@ -17,7 +17,7 @@ sed "s,s://,https://,g" $output/github.txt >> $output/github1.txt ; mv $output/g
 
 
 cd /root/script/git/github_dis
-cat $output/github.txt $output/github321.txt
+cat $output/github.txt > $output/github321.txt
 > 11.txt
 for line in `cat $output/github.txt`
 do
