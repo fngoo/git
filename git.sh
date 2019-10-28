@@ -49,7 +49,7 @@ echo ' ' >> $output/git_hog.txt
 echo ' ' >> $output/git_hog.txt
 echo "${line}" >> $output/git_hog.txt
 echo ' ' >> $output/git_hog.txt
-trufflehog ${line} | sed 's/\x1b\[[0-9;]*m//g' >> $output/git_hog.txt
+trufflehog ${line} --regex --entropy=False --max_depth 3 | sed 's/\x1b\[[0-9;]*m//g' >> $output/git_hog.txt
 trufflehog --cleanup ${line}
 echo ' ' >> $output/git_hog.txt
 echo ' ' >> $output/git_hog.txt
