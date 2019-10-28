@@ -29,7 +29,7 @@ then
 line=`echo ${line} | grep -oP "http.*" | grep -o -P ".*(?=blob)"`
 echo $line >> 11.txt
 else
-num=`grep -oPn "$line" | grep -oP ".*?(?=\:)"`
+num=`grep -oPn "$line" $output/github.txt | grep -oP ".*?(?=\:)"`
 cat $output/github.txt > $output/github123.txt ; sed -i "${num}d" $output/github123.txt > $output/0_github.txt ; rm $output/github123.txt
 fi
 fi
