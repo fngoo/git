@@ -28,11 +28,13 @@ if [ "$year" > "2017" ]
 then
 line=`echo ${line} | grep -oP "http.*" | grep -o -P ".*(?=blob)"`
 echo $line >> 11.txt
+else
+num=`grep -oPn "$line" | grep -oP ".*?(?=\:)"`
+sed -i "${num}d" $output/github.txt > $output/0_github.txt
 fi
 fi
 done
 sort -u 11.txt -o 11.txt
-cp 11.txt $output/0_github_url.txt
 
 
 for line in `cat 11.txt`
