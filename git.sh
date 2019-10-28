@@ -25,10 +25,6 @@ echo $line >> 11.txt
 done
 sort -u 11.txt -o 11.txt
 
-for line in `cat 11.txt`
-do
-trufflehog --cleanup ${line}
-done
 
 for line in `cat 11.txt`
 do
