@@ -66,6 +66,9 @@ sed "s,localhost,123123123123,g" $output/git_hog.txt >> $output/git_hog1.txt ; m
 sed "s,example,123123123123,g" $output/git_hog.txt >> $output/git_hog1.txt ; mv $output/git_hog1.txt $output/git_hog.txt
 sed "s,user:password@,123123123123,g" $output/git_hog.txt >> $output/git_hog1.txt ; mv $output/git_hog1.txt $output/git_hog.txt
 sed "s,user:pwd@,123123123123,g" $output/git_hog.txt >> $output/git_hog1.txt ; mv $output/git_hog1.txt $output/git_hog.txt
+sed "s,user:pass@,123123123123,g" $output/git_hog.txt >> $output/git_hog1.txt ; mv $output/git_hog1.txt $output/git_hog.txt
+sed "s,hostname,123123123123,g" $output/git_hog.txt >> $output/git_hog1.txt ; mv $output/git_hog1.txt $output/git_hog.txt
+
 num=`cat $output/git_hog.txt | wc -l`
 if [ "$num" != "6" ]
 then
