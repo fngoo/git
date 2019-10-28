@@ -23,7 +23,7 @@ do
 grep=`echo $line | grep http`
 if [ "$grep" != "" ]
 then
-year=`curl -L $line | grep -oP "(?<=<relative-time datetime=\").*?(?=-)"`
+year=`curl -L --speed-time 5 --speed-limit 1 $line | grep -oP "(?<=<relative-time datetime=\").*?(?=-)"`
 if [ "$year" > "2017" ]
 then
 line=`echo ${line} | grep -oP "http.*" | grep -o -P ".*(?=blob)"`
@@ -36,7 +36,8 @@ fi
 done
 sort -u 11.txt -o 11.txt
 
-
+if [ -s 11.txt ]
+then
 for line in `cat 11.txt`
 do
 
@@ -92,6 +93,7 @@ num=$((delete-8))
 delete=$((delete+1))
 sed -i "${num},${delete}d" $output/0_git_trufflehog_usedate.txt ; cat $output/0_git_trufflehog_usedate.txt >> $output/git_hog1.txt ; mv $output/git_hog1.txt $output/0_git_trufflehog_usedate.txt ; wc -l $output/0_git_trufflehog_usedate.txt
 done
+fi
 fi
 
 rm a.txt
