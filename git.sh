@@ -24,7 +24,7 @@ grep=`echo $line | grep http`
 if [ "$grep" != "" ]
 then
 year=`curl -L $line | grep -oP "(?<=<relative-time datetime=\").*?(?=-)"`
-if [ $year -gt 2017 ]
+if [ "$year" -gt "2017" ]
 then
 line=`echo ${line} | grep -oP "http.*" | grep -o -P ".*(?=blob)"`
 echo $line >> 11.txt
@@ -32,7 +32,7 @@ fi
 fi
 done
 sort -u 11.txt -o 11.txt
-
+cp 11.txt $output/0_github_url.txt
 
 
 for line in `cat 11.txt`
