@@ -34,8 +34,13 @@ grep -v "$line" $output/github321.txt > $output/0_github_url.txt ; cat $output/0
 fi
 fi
 done
-sort -u 11.txt -o 11.txt ; rm $output/github321.txt
+url=`grep -oP "http.*" $output/0_github_url.txt`
+if [ "$url" = "" ]
+then
+rm $output/0_github_url.txt
+fi
 
+sort -u 11.txt -o 11.txt ; rm $output/github321.txt
 if [ -s 11.txt ]
 then
 for line in `cat 11.txt`
