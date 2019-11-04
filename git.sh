@@ -55,7 +55,7 @@ echo ' ' >> $output/git_hog.txt
 echo "${line}" >> $output/git_hog.txt
 echo ' ' >> $output/git_hog.txt
 echo "trufflehog ${line} --regex --entropy=False --max_depth 10 >> $output/git_hog.txt" > githog.sh ; timeout 600 bash githog.sh ; rm githog.sh
-trufflehog --cleanup ${line}
+echo "trufflehog --cleanup ${line}" > githog.sh ; timeout 600 bash githog.sh ; rm githog.sh
 echo ' ' >> $output/git_hog.txt
 echo ' ' >> $output/git_hog.txt
 echo ' ' >> $output/git_hog.txt
