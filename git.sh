@@ -25,7 +25,7 @@ grep=`echo $line | grep http`
 if [ "$grep" != "" ]
 then
 year=`curl -L --speed-time 5 --speed-limit 1 $line | grep -oP "(?<=<relative-time datetime=\").*?(?=-)"`
-if [ "$year" > "2017" ]
+if [ $year > 2017 ]
 then
 line=`echo ${line} | grep -oP "http.*" | grep -o -P ".*(?=blob)"`
 echo $line >> 11.txt
@@ -54,7 +54,7 @@ echo ' ' >> $output/git_hog.txt
 echo ' ' >> $output/git_hog.txt
 echo "${line}" >> $output/git_hog.txt
 echo ' ' >> $output/git_hog.txt
-echo "trufflehog ${line} --regex --entropy=False --max_depth 10 >> $output/git_hog.txt" > githog.sh ; timeout 600 bash githog.sh ; rm githog.sh
+echo "trufflehog ${line} --regex --entropy=False --max_depth 10 >> $output/git_hog.txt" > githog.sh ; timeout 666 bash githog.sh ; rm githog.sh
 echo "trufflehog --cleanup ${line}" > githog.sh ; timeout 600 bash githog.sh ; rm githog.sh
 echo ' ' >> $output/git_hog.txt
 echo ' ' >> $output/git_hog.txt
