@@ -24,7 +24,7 @@ do
 grep=`echo $line | grep http`
 if [ "$grep" != "" ]
 then
-year=`curl -L --speed-time 5 --speed-limit 1 $line | grep -oP "(?<=<relative-time datetime=\").*?(?=-)"`
+year=`curl -k -L --speed-time 5 --speed-limit 1 $line | grep -oP "(?<=<relative-time datetime=\").*?(?=-)"`
 if [ $year > 2017 ]
 then
 line=`echo ${line} | grep -oP "http.*" | grep -o -P ".*(?=blob)"`
