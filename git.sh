@@ -1,5 +1,6 @@
 #规则循环
 cd /root/script/git/github_dis
+bash token.sh
 > github.txt
 for line in `cat $var`
 do
