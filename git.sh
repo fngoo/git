@@ -111,3 +111,4 @@ rm $output/github.txt
 ls
 date "+%Y-%m-%d_%H:%M:%S" >> /root/date.txt ; echo 'git' >> /root/date.txt
 rm $output/git_hog.txt
+exit
